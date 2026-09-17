@@ -1,0 +1,1973 @@
+[
+  {
+    "id": 1,
+    "slug": "contains-duplicate",
+    "topic": "Arrays & Hashing",
+    "title": "Contains Duplicate",
+    "difficulty": "Easy",
+    "concepts": [
+      "Hash set membership",
+      "duplicates"
+    ],
+    "approaches": "Brute force pair scan O(n²)/O(1); sorting O(n log n); hash set O(n) avg/O(n)",
+    "source": "https://neetcode.io/problems/duplicate-integer/question?list=neetcode150"
+  },
+  {
+    "id": 2,
+    "slug": "valid-anagram",
+    "topic": "Arrays & Hashing",
+    "title": "Valid Anagram",
+    "difficulty": "Easy",
+    "concepts": [
+      "Frequency counting",
+      "hashing",
+      "sorting"
+    ],
+    "approaches": "Sort O(n log n); hash/fixed-size count O(n)/O(k)",
+    "source": "https://neetcode.io/problems/is-anagram/question?list=neetcode150"
+  },
+  {
+    "id": 3,
+    "slug": "two-sum",
+    "topic": "Arrays & Hashing",
+    "title": "Two Sum",
+    "difficulty": "Easy",
+    "concepts": [
+      "Complement lookup",
+      "hash map",
+      "time-space tradeoff"
+    ],
+    "approaches": "Brute force O(n²); hash map one-pass O(n)/O(n); sort+two pointers if indices handled O(n log n)",
+    "source": "https://neetcode.io/problems/two-integer-sum/question?list=neetcode150"
+  },
+  {
+    "id": 4,
+    "slug": "group-anagrams",
+    "topic": "Arrays & Hashing",
+    "title": "Group Anagrams",
+    "difficulty": "Medium",
+    "concepts": [
+      "Canonical keys",
+      "frequency signatures",
+      "hash map grouping"
+    ],
+    "approaches": "Sort each string O(m log m); frequency-tuple key O(m) per string",
+    "source": "https://neetcode.io/problems/anagram-groups/question?list=neetcode150"
+  },
+  {
+    "id": 5,
+    "slug": "top-k-frequent-elements",
+    "topic": "Arrays & Hashing",
+    "title": "Top K Frequent Elements",
+    "difficulty": "Medium",
+    "concepts": [
+      "Frequency map",
+      "heap",
+      "bucket sort"
+    ],
+    "approaches": "Sort counts O(n log n); min-heap O(n log k); bucket sort O(n)",
+    "source": "https://neetcode.io/problems/top-k-elements-in-list/question?list=neetcode150"
+  },
+  {
+    "id": 6,
+    "slug": "product-of-array-except-self",
+    "topic": "Arrays & Hashing",
+    "title": "Product of Array Except Self",
+    "difficulty": "Medium",
+    "concepts": [
+      "Prefix/suffix products",
+      "output-array optimization"
+    ],
+    "approaches": "Prefix+suffix arrays O(n)/O(n); two passes with output + scalar suffix O(n)/O(1) extra",
+    "source": "https://neetcode.io/problems/products-of-array-discluding-self/question?list=neetcode150"
+  },
+  {
+    "id": 7,
+    "slug": "valid-sudoku",
+    "topic": "Arrays & Hashing",
+    "title": "Valid Sudoku",
+    "difficulty": "Medium",
+    "concepts": [
+      "Constraint tracking",
+      "row/column/box hashing"
+    ],
+    "approaches": "Scan with sets O(1) for fixed 9x9; general O(n²)",
+    "source": "https://neetcode.io/problems/valid-sudoku/question?list=neetcode150"
+  },
+  {
+    "id": 8,
+    "slug": "encode-and-decode-strings",
+    "topic": "Arrays & Hashing",
+    "title": "Encode and Decode Strings",
+    "difficulty": "Medium",
+    "concepts": [
+      "Serialization",
+      "delimiters",
+      "length-prefix encoding"
+    ],
+    "approaches": "Escaping/delimiter pitfalls; length-prefix encode/decode O(total chars)",
+    "source": "https://neetcode.io/problems/string-encode-and-decode/question?list=neetcode150"
+  },
+  {
+    "id": 9,
+    "slug": "longest-consecutive-sequence",
+    "topic": "Arrays & Hashing",
+    "title": "Longest Consecutive Sequence",
+    "difficulty": "Medium",
+    "concepts": [
+      "Hash set",
+      "sequence starts",
+      "amortized linear scan"
+    ],
+    "approaches": "Sorting O(n log n); hash-set start-only scan O(n) avg/O(n)",
+    "source": "https://neetcode.io/problems/longest-consecutive-sequence/question?list=neetcode150"
+  },
+  {
+    "id": 10,
+    "slug": "valid-palindrome",
+    "topic": "Two Pointers",
+    "title": "Valid Palindrome",
+    "difficulty": "Easy",
+    "concepts": [
+      "Two pointers",
+      "character filtering"
+    ],
+    "approaches": "Build filtered string O(n)/O(n); in-place two pointers O(n)/O(1)",
+    "source": "https://neetcode.io/problems/is-palindrome/question?list=neetcode150"
+  },
+  {
+    "id": 11,
+    "slug": "two-sum-ii-input-array-is-sorted",
+    "topic": "Two Pointers",
+    "title": "Two Sum II - Input Array Is Sorted",
+    "difficulty": "Medium",
+    "concepts": [
+      "Opposing pointers",
+      "sorted invariant"
+    ],
+    "approaches": "Binary search per item O(n log n); two pointers O(n)/O(1)",
+    "source": "https://neetcode.io/problems/two-integer-sum-ii/question?list=neetcode150"
+  },
+  {
+    "id": 12,
+    "slug": "3sum",
+    "topic": "Two Pointers",
+    "title": "3Sum",
+    "difficulty": "Medium",
+    "concepts": [
+      "Sorting",
+      "two pointers",
+      "duplicate elimination"
+    ],
+    "approaches": "Brute force O(n³); sort + fixed pivot + two pointers O(n²)",
+    "source": "https://neetcode.io/problems/three-integer-sum/question?list=neetcode150"
+  },
+  {
+    "id": 13,
+    "slug": "container-with-most-water",
+    "topic": "Two Pointers",
+    "title": "Container With Most Water",
+    "difficulty": "Medium",
+    "concepts": [
+      "Greedy pointer movement",
+      "proof by elimination"
+    ],
+    "approaches": "Brute force O(n²); two pointers O(n)/O(1)",
+    "source": "https://neetcode.io/problems/max-water-container/question?list=neetcode150"
+  },
+  {
+    "id": 14,
+    "slug": "trapping-rain-water",
+    "topic": "Two Pointers",
+    "title": "Trapping Rain Water",
+    "difficulty": "Hard",
+    "concepts": [
+      "Two pointers",
+      "prefix maxima",
+      "monotonic stack"
+    ],
+    "approaches": "Prefix/suffix max O(n)/O(n); two pointers O(n)/O(1); stack O(n)/O(n)",
+    "source": "https://neetcode.io/problems/trapping-rain-water/question?list=neetcode150"
+  },
+  {
+    "id": 15,
+    "slug": "best-time-to-buy-and-sell-stock",
+    "topic": "Sliding Window",
+    "title": "Best Time to Buy and Sell Stock",
+    "difficulty": "Easy",
+    "concepts": [
+      "Running minimum",
+      "one-pass window intuition"
+    ],
+    "approaches": "Brute force O(n²); track min-so-far O(n)/O(1)",
+    "source": "https://neetcode.io/problems/buy-and-sell-crypto/question?list=neetcode150"
+  },
+  {
+    "id": 16,
+    "slug": "longest-substring-without-repeating-characters",
+    "topic": "Sliding Window",
+    "title": "Longest Substring Without Repeating Characters",
+    "difficulty": "Medium",
+    "concepts": [
+      "Variable sliding window",
+      "set/map invariant"
+    ],
+    "approaches": "Brute force O(n²+); set window O(n); last-index map O(n)",
+    "source": "https://neetcode.io/problems/longest-substring-without-duplicates/question?list=neetcode150"
+  },
+  {
+    "id": 17,
+    "slug": "longest-repeating-character-replacement",
+    "topic": "Sliding Window",
+    "title": "Longest Repeating Character Replacement",
+    "difficulty": "Medium",
+    "concepts": [
+      "Sliding window",
+      "frequency counts",
+      "relaxed invariant"
+    ],
+    "approaches": "Enumerate windows O(n²); variable window O(n)/O(alphabet)",
+    "source": "https://neetcode.io/problems/longest-repeating-substring-with-replacement/question?list=neetcode150"
+  },
+  {
+    "id": 18,
+    "slug": "permutation-in-string",
+    "topic": "Sliding Window",
+    "title": "Permutation in String",
+    "difficulty": "Medium",
+    "concepts": [
+      "Fixed-size sliding window",
+      "frequency equality"
+    ],
+    "approaches": "Recount each window O(n*k); rolling counts O(n)/O(alphabet)",
+    "source": "https://neetcode.io/problems/permutation-string/question?list=neetcode150"
+  },
+  {
+    "id": 19,
+    "slug": "minimum-window-substring",
+    "topic": "Sliding Window",
+    "title": "Minimum Window Substring",
+    "difficulty": "Hard",
+    "concepts": [
+      "Need/have counts",
+      "minimum valid window"
+    ],
+    "approaches": "Brute force O(n²); expand/shrink window O(n)/O(k)",
+    "source": "https://neetcode.io/problems/minimum-window-with-characters/question?list=neetcode150"
+  },
+  {
+    "id": 20,
+    "slug": "sliding-window-maximum",
+    "topic": "Sliding Window",
+    "title": "Sliding Window Maximum",
+    "difficulty": "Hard",
+    "concepts": [
+      "Monotonic deque",
+      "dominated candidates"
+    ],
+    "approaches": "Heap O(n log k); monotonic deque O(n)/O(k)",
+    "source": "https://neetcode.io/problems/sliding-window-maximum/question?list=neetcode150"
+  },
+  {
+    "id": 21,
+    "slug": "valid-parentheses",
+    "topic": "Stack",
+    "title": "Valid Parentheses",
+    "difficulty": "Easy",
+    "concepts": [
+      "LIFO matching",
+      "stack invariant"
+    ],
+    "approaches": "Stack O(n)/O(n)",
+    "source": "https://neetcode.io/problems/validate-parentheses/question?list=neetcode150"
+  },
+  {
+    "id": 22,
+    "slug": "min-stack",
+    "topic": "Stack",
+    "title": "Min Stack",
+    "difficulty": "Medium",
+    "concepts": [
+      "Auxiliary state",
+      "prefix minimum"
+    ],
+    "approaches": "Recompute min O(n) query; paired/second stack O(1) operations, O(n) space",
+    "source": "https://neetcode.io/problems/minimum-stack/question?list=neetcode150"
+  },
+  {
+    "id": 23,
+    "slug": "evaluate-reverse-polish-notation",
+    "topic": "Stack",
+    "title": "Evaluate Reverse Polish Notation",
+    "difficulty": "Medium",
+    "concepts": [
+      "Expression evaluation",
+      "operand order"
+    ],
+    "approaches": "Stack O(n)/O(n)",
+    "source": "https://neetcode.io/problems/evaluate-reverse-polish-notation/question?list=neetcode150"
+  },
+  {
+    "id": 24,
+    "slug": "generate-parentheses",
+    "topic": "Stack",
+    "title": "Generate Parentheses",
+    "difficulty": "Medium",
+    "concepts": [
+      "Backtracking",
+      "validity constraints"
+    ],
+    "approaches": "Backtracking over valid prefixes; O(C_n) outputs",
+    "source": "https://neetcode.io/problems/generate-parentheses/question?list=neetcode150"
+  },
+  {
+    "id": 25,
+    "slug": "daily-temperatures",
+    "topic": "Stack",
+    "title": "Daily Temperatures",
+    "difficulty": "Medium",
+    "concepts": [
+      "Monotonic decreasing stack",
+      "next greater"
+    ],
+    "approaches": "Brute force O(n²); monotonic stack O(n)/O(n)",
+    "source": "https://neetcode.io/problems/daily-temperatures/question?list=neetcode150"
+  },
+  {
+    "id": 26,
+    "slug": "car-fleet",
+    "topic": "Stack",
+    "title": "Car Fleet",
+    "difficulty": "Medium",
+    "concepts": [
+      "Sorting",
+      "stack/monotonic arrival times"
+    ],
+    "approaches": "Sort by position O(n log n); scan arrival times O(n) after sort",
+    "source": "https://neetcode.io/problems/car-fleet/question?list=neetcode150"
+  },
+  {
+    "id": 27,
+    "slug": "binary-search",
+    "topic": "Binary Search",
+    "title": "Binary Search",
+    "difficulty": "Easy",
+    "concepts": [
+      "Binary search invariant",
+      "boundaries"
+    ],
+    "approaches": "Linear O(n); binary search O(log n)/O(1)",
+    "source": "https://neetcode.io/problems/binary-search/question?list=neetcode150"
+  },
+  {
+    "id": 28,
+    "slug": "search-a-2d-matrix",
+    "topic": "Binary Search",
+    "title": "Search a 2D Matrix",
+    "difficulty": "Medium",
+    "concepts": [
+      "Flattened sorted index",
+      "coordinate mapping"
+    ],
+    "approaches": "Row selection + binary search; flattened binary search O(log(mn))",
+    "source": "https://neetcode.io/problems/search-2d-matrix/question?list=neetcode150"
+  },
+  {
+    "id": 29,
+    "slug": "koko-eating-bananas",
+    "topic": "Binary Search",
+    "title": "Koko Eating Bananas",
+    "difficulty": "Medium",
+    "concepts": [
+      "Binary search on answer",
+      "feasibility predicate"
+    ],
+    "approaches": "Linear answer search O(max*n); binary search O(n log max)",
+    "source": "https://neetcode.io/problems/eating-bananas/question?list=neetcode150"
+  },
+  {
+    "id": 30,
+    "slug": "find-minimum-in-rotated-sorted-array",
+    "topic": "Binary Search",
+    "title": "Find Minimum in Rotated Sorted Array",
+    "difficulty": "Medium",
+    "concepts": [
+      "Rotated sorted invariant",
+      "half selection"
+    ],
+    "approaches": "Linear O(n); binary search O(log n)",
+    "source": "https://neetcode.io/problems/find-minimum-in-rotated-sorted-array/question?list=neetcode150"
+  },
+  {
+    "id": 31,
+    "slug": "search-in-rotated-sorted-array",
+    "topic": "Binary Search",
+    "title": "Search in Rotated Sorted Array",
+    "difficulty": "Medium",
+    "concepts": [
+      "Identify sorted half",
+      "binary search cases"
+    ],
+    "approaches": "Linear O(n); modified binary search O(log n)",
+    "source": "https://neetcode.io/problems/find-target-in-rotated-sorted-array/question?list=neetcode150"
+  },
+  {
+    "id": 32,
+    "slug": "time-based-key-value-store",
+    "topic": "Binary Search",
+    "title": "Time Based Key-Value Store",
+    "difficulty": "Medium",
+    "concepts": [
+      "Per-key sorted history",
+      "binary search floor"
+    ],
+    "approaches": "Hash map of append-only lists; set O(1), get O(log n)",
+    "source": "https://neetcode.io/problems/time-based-key-value-store/question?list=neetcode150"
+  },
+  {
+    "id": 33,
+    "slug": "median-of-two-sorted-arrays",
+    "topic": "Binary Search",
+    "title": "Median of Two Sorted Arrays",
+    "difficulty": "Hard",
+    "concepts": [
+      "Partition binary search",
+      "order statistics"
+    ],
+    "approaches": "Merge O(m+n); binary search smaller array O(log min(m,n))",
+    "source": "https://neetcode.io/problems/median-of-two-sorted-arrays/question?list=neetcode150"
+  },
+  {
+    "id": 34,
+    "slug": "reverse-linked-list",
+    "topic": "Linked List",
+    "title": "Reverse Linked List",
+    "difficulty": "Easy",
+    "concepts": [
+      "Pointer rewiring",
+      "iterative vs recursive"
+    ],
+    "approaches": "Iterative O(n)/O(1); recursive O(n)/O(n) call stack",
+    "source": "https://neetcode.io/problems/reverse-a-linked-list/question?list=neetcode150"
+  },
+  {
+    "id": 35,
+    "slug": "merge-two-sorted-linked-lists",
+    "topic": "Linked List",
+    "title": "Merge Two Sorted Linked Lists",
+    "difficulty": "Easy",
+    "concepts": [
+      "Dummy node",
+      "merge invariant"
+    ],
+    "approaches": "Iterative/recursive O(n+m); iterative O(1) extra",
+    "source": "https://neetcode.io/problems/merge-two-sorted-linked-lists/question?list=neetcode150"
+  },
+  {
+    "id": 36,
+    "slug": "linked-list-cycle",
+    "topic": "Linked List",
+    "title": "Linked List Cycle",
+    "difficulty": "Easy",
+    "concepts": [
+      "Fast/slow pointers",
+      "cycle detection"
+    ],
+    "approaches": "Hash set O(n)/O(n); Floyd O(n)/O(1)",
+    "source": "https://neetcode.io/problems/linked-list-cycle-detection/question?list=neetcode150"
+  },
+  {
+    "id": 37,
+    "slug": "reorder-list",
+    "topic": "Linked List",
+    "title": "Reorder List",
+    "difficulty": "Medium",
+    "concepts": [
+      "Middle finding",
+      "reverse",
+      "merge"
+    ],
+    "approaches": "Array O(n)/O(n); slow-fast + reverse + merge O(n)/O(1)",
+    "source": "https://neetcode.io/problems/reorder-linked-list/question?list=neetcode150"
+  },
+  {
+    "id": 38,
+    "slug": "remove-nth-node-from-end-of-list",
+    "topic": "Linked List",
+    "title": "Remove Nth Node From End of List",
+    "difficulty": "Medium",
+    "concepts": [
+      "Two pointers with gap",
+      "dummy node"
+    ],
+    "approaches": "Two pass O(n); one pass gap O(n)/O(1)",
+    "source": "https://neetcode.io/problems/remove-node-from-end-of-linked-list/question?list=neetcode150"
+  },
+  {
+    "id": 39,
+    "slug": "copy-list-with-random-pointer",
+    "topic": "Linked List",
+    "title": "Copy List with Random Pointer",
+    "difficulty": "Medium",
+    "concepts": [
+      "Node mapping",
+      "interleaving trick"
+    ],
+    "approaches": "Hash map O(n)/O(n); interleave copies O(n)/O(1) extra",
+    "source": "https://neetcode.io/problems/copy-linked-list-with-random-pointer/question?list=neetcode150"
+  },
+  {
+    "id": 40,
+    "slug": "add-two-numbers",
+    "topic": "Linked List",
+    "title": "Add Two Numbers",
+    "difficulty": "Medium",
+    "concepts": [
+      "Digit simulation",
+      "carry"
+    ],
+    "approaches": "Iterative O(max(n,m))/O(result)",
+    "source": "https://neetcode.io/problems/add-two-numbers/question?list=neetcode150"
+  },
+  {
+    "id": 41,
+    "slug": "find-the-duplicate-number",
+    "topic": "Linked List",
+    "title": "Find the Duplicate Number",
+    "difficulty": "Medium",
+    "concepts": [
+      "Floyd cycle on implicit graph",
+      "pigeonhole"
+    ],
+    "approaches": "Set O(n)/O(n); sort O(n log n); Floyd O(n)/O(1)",
+    "source": "https://neetcode.io/problems/find-duplicate-integer/question?list=neetcode150"
+  },
+  {
+    "id": 42,
+    "slug": "lru-cache",
+    "topic": "Linked List",
+    "title": "LRU Cache",
+    "difficulty": "Medium",
+    "concepts": [
+      "Hash map + doubly linked list",
+      "O(1) eviction"
+    ],
+    "approaches": "Ordered structure; custom DLL+map gives O(1) get/put",
+    "source": "https://neetcode.io/problems/lru-cache/question?list=neetcode150"
+  },
+  {
+    "id": 43,
+    "slug": "merge-k-sorted-linked-lists",
+    "topic": "Linked List",
+    "title": "Merge K Sorted Linked Lists",
+    "difficulty": "Hard",
+    "concepts": [
+      "Heap",
+      "divide and conquer merge"
+    ],
+    "approaches": "Sequential O(kN); heap O(N log k); divide-conquer O(N log k)",
+    "source": "https://neetcode.io/problems/merge-k-sorted-linked-lists/question?list=neetcode150"
+  },
+  {
+    "id": 44,
+    "slug": "reverse-nodes-in-k-group",
+    "topic": "Linked List",
+    "title": "Reverse Nodes in K-Group",
+    "difficulty": "Hard",
+    "concepts": [
+      "Pointer groups",
+      "sentinel",
+      "sublist reversal"
+    ],
+    "approaches": "Iterative group reversal O(n)/O(1)",
+    "source": "https://neetcode.io/problems/reverse-nodes-in-k-group/question?list=neetcode150"
+  },
+  {
+    "id": 45,
+    "slug": "invert-binary-tree",
+    "topic": "Trees",
+    "title": "Invert Binary Tree",
+    "difficulty": "Easy",
+    "concepts": [
+      "Tree recursion",
+      "DFS/BFS"
+    ],
+    "approaches": "DFS recursive O(n)/O(h); BFS O(n)/O(w)",
+    "source": "https://neetcode.io/problems/invert-a-binary-tree/question?list=neetcode150"
+  },
+  {
+    "id": 46,
+    "slug": "maximum-depth-of-binary-tree",
+    "topic": "Trees",
+    "title": "Maximum Depth of Binary Tree",
+    "difficulty": "Easy",
+    "concepts": [
+      "DFS recursion",
+      "BFS levels"
+    ],
+    "approaches": "DFS/BFS O(n); space O(h) or O(w)",
+    "source": "https://neetcode.io/problems/depth-of-binary-tree/question?list=neetcode150"
+  },
+  {
+    "id": 47,
+    "slug": "diameter-of-binary-tree",
+    "topic": "Trees",
+    "title": "Diameter of Binary Tree",
+    "difficulty": "Easy",
+    "concepts": [
+      "Postorder DFS",
+      "combine subtree heights"
+    ],
+    "approaches": "Naive repeated height O(n²); postorder O(n)",
+    "source": "https://neetcode.io/problems/binary-tree-diameter/question?list=neetcode150"
+  },
+  {
+    "id": 48,
+    "slug": "balanced-binary-tree",
+    "topic": "Trees",
+    "title": "Balanced Binary Tree",
+    "difficulty": "Easy",
+    "concepts": [
+      "Postorder",
+      "sentinel return",
+      "height balance"
+    ],
+    "approaches": "Repeated height O(n²); bottom-up O(n)",
+    "source": "https://neetcode.io/problems/balanced-binary-tree/question?list=neetcode150"
+  },
+  {
+    "id": 49,
+    "slug": "same-binary-tree",
+    "topic": "Trees",
+    "title": "Same Binary Tree",
+    "difficulty": "Easy",
+    "concepts": [
+      "Structural recursion"
+    ],
+    "approaches": "DFS/BFS O(n)",
+    "source": "https://neetcode.io/problems/same-binary-tree/question?list=neetcode150"
+  },
+  {
+    "id": 50,
+    "slug": "subtree-of-another-tree",
+    "topic": "Trees",
+    "title": "Subtree of Another Tree",
+    "difficulty": "Easy",
+    "concepts": [
+      "Tree equality",
+      "traversal"
+    ],
+    "approaches": "Check same-tree at nodes O(mn) worst; serialization/hash alternatives",
+    "source": "https://neetcode.io/problems/subtree-of-a-binary-tree/question?list=neetcode150"
+  },
+  {
+    "id": 51,
+    "slug": "lowest-common-ancestor-in-binary-search-tree",
+    "topic": "Trees",
+    "title": "Lowest Common Ancestor in Binary Search Tree",
+    "difficulty": "Medium",
+    "concepts": [
+      "BST ordering",
+      "ancestor reasoning"
+    ],
+    "approaches": "General path O(h) space; exploit BST O(h)/O(1)",
+    "source": "https://neetcode.io/problems/lowest-common-ancestor-in-binary-search-tree/question?list=neetcode150"
+  },
+  {
+    "id": 52,
+    "slug": "binary-tree-level-order-traversal",
+    "topic": "Trees",
+    "title": "Binary Tree Level Order Traversal",
+    "difficulty": "Medium",
+    "concepts": [
+      "BFS queue",
+      "level batching"
+    ],
+    "approaches": "BFS O(n)/O(w)",
+    "source": "https://neetcode.io/problems/level-order-traversal-of-binary-tree/question?list=neetcode150"
+  },
+  {
+    "id": 53,
+    "slug": "binary-tree-right-side-view",
+    "topic": "Trees",
+    "title": "Binary Tree Right Side View",
+    "difficulty": "Medium",
+    "concepts": [
+      "BFS levels",
+      "DFS depth-first overwrite"
+    ],
+    "approaches": "BFS/DFS O(n)",
+    "source": "https://neetcode.io/problems/binary-tree-right-side-view/question?list=neetcode150"
+  },
+  {
+    "id": 54,
+    "slug": "count-good-nodes-in-binary-tree",
+    "topic": "Trees",
+    "title": "Count Good Nodes in Binary Tree",
+    "difficulty": "Medium",
+    "concepts": [
+      "Path state",
+      "DFS carrying max"
+    ],
+    "approaches": "DFS O(n)/O(h)",
+    "source": "https://neetcode.io/problems/count-good-nodes-in-binary-tree/question?list=neetcode150"
+  },
+  {
+    "id": 55,
+    "slug": "validate-binary-search-tree",
+    "topic": "Trees",
+    "title": "Validate Binary Search Tree",
+    "difficulty": "Medium",
+    "concepts": [
+      "Range constraints",
+      "inorder monotonicity"
+    ],
+    "approaches": "Inorder list O(n)/O(n); bounds DFS O(n)/O(h)",
+    "source": "https://neetcode.io/problems/valid-binary-search-tree/question?list=neetcode150"
+  },
+  {
+    "id": 56,
+    "slug": "kth-smallest-element-in-a-bst",
+    "topic": "Trees",
+    "title": "Kth Smallest Element in a BST",
+    "difficulty": "Medium",
+    "concepts": [
+      "Inorder traversal",
+      "order statistic"
+    ],
+    "approaches": "Full inorder O(n); iterative early stop O(h+k)",
+    "source": "https://neetcode.io/problems/kth-smallest-integer-in-bst/question?list=neetcode150"
+  },
+  {
+    "id": 57,
+    "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+    "topic": "Trees",
+    "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+    "difficulty": "Medium",
+    "concepts": [
+      "Traversal reconstruction",
+      "index map",
+      "recursion"
+    ],
+    "approaches": "Slicing O(n²); hashmap indices O(n)",
+    "source": "https://neetcode.io/problems/binary-tree-from-preorder-and-inorder-traversal/question?list=neetcode150"
+  },
+  {
+    "id": 58,
+    "slug": "binary-tree-maximum-path-sum",
+    "topic": "Trees",
+    "title": "Binary Tree Maximum Path Sum",
+    "difficulty": "Hard",
+    "concepts": [
+      "Postorder DP on tree",
+      "discard negative branches"
+    ],
+    "approaches": "DFS O(n)/O(h)",
+    "source": "https://neetcode.io/problems/binary-tree-maximum-path-sum/question?list=neetcode150"
+  },
+  {
+    "id": 59,
+    "slug": "serialize-and-deserialize-binary-tree",
+    "topic": "Trees",
+    "title": "Serialize and Deserialize Binary Tree",
+    "difficulty": "Hard",
+    "concepts": [
+      "Tree serialization",
+      "preorder/BFS with null markers"
+    ],
+    "approaches": "Encode/decode O(n)/O(n)",
+    "source": "https://neetcode.io/problems/serialize-and-deserialize-binary-tree/question?list=neetcode150"
+  },
+  {
+    "id": 60,
+    "slug": "kth-largest-element-in-a-stream",
+    "topic": "Heap / Priority Queue",
+    "title": "Kth Largest Element in a Stream",
+    "difficulty": "Easy",
+    "concepts": [
+      "Min-heap of size k",
+      "streaming invariant"
+    ],
+    "approaches": "Sort each time expensive; heap update O(log k), space O(k)",
+    "source": "https://neetcode.io/problems/kth-largest-integer-in-a-stream/question?list=neetcode150"
+  },
+  {
+    "id": 61,
+    "slug": "last-stone-weight",
+    "topic": "Heap / Priority Queue",
+    "title": "Last Stone Weight",
+    "difficulty": "Easy",
+    "concepts": [
+      "Max-heap simulation",
+      "Python negation trick"
+    ],
+    "approaches": "Heap O(n log n)",
+    "source": "https://neetcode.io/problems/last-stone-weight/question?list=neetcode150"
+  },
+  {
+    "id": 62,
+    "slug": "k-closest-points-to-origin",
+    "topic": "Heap / Priority Queue",
+    "title": "K Closest Points to Origin",
+    "difficulty": "Medium",
+    "concepts": [
+      "Heap",
+      "selection",
+      "distance comparison"
+    ],
+    "approaches": "Sort O(n log n); heap O(n log k); quickselect avg O(n)",
+    "source": "https://neetcode.io/problems/k-closest-points-to-origin/question?list=neetcode150"
+  },
+  {
+    "id": 63,
+    "slug": "kth-largest-element-in-an-array",
+    "topic": "Heap / Priority Queue",
+    "title": "Kth Largest Element in an Array",
+    "difficulty": "Medium",
+    "concepts": [
+      "Heap",
+      "quickselect",
+      "order statistics"
+    ],
+    "approaches": "Sort O(n log n); heap O(n log k); quickselect avg O(n)",
+    "source": "https://neetcode.io/problems/kth-largest-element-in-an-array/question?list=neetcode150"
+  },
+  {
+    "id": 64,
+    "slug": "task-scheduler",
+    "topic": "Heap / Priority Queue",
+    "title": "Task Scheduler",
+    "difficulty": "Medium",
+    "concepts": [
+      "Greedy scheduling",
+      "max heap",
+      "counting formula"
+    ],
+    "approaches": "Heap simulation O(n log k); counting reasoning O(n)",
+    "source": "https://neetcode.io/problems/task-scheduling/question?list=neetcode150"
+  },
+  {
+    "id": 65,
+    "slug": "design-twitter",
+    "topic": "Heap / Priority Queue",
+    "title": "Design Twitter",
+    "difficulty": "Medium",
+    "concepts": [
+      "Heap merge",
+      "timestamp ordering",
+      "system design data structures"
+    ],
+    "approaches": "Per-user feeds + follow sets; k-way heap merge; complexity depends on followed feeds",
+    "source": "https://neetcode.io/problems/design-twitter-feed/question?list=neetcode150"
+  },
+  {
+    "id": 66,
+    "slug": "find-median-from-data-stream",
+    "topic": "Heap / Priority Queue",
+    "title": "Find Median from Data Stream",
+    "difficulty": "Hard",
+    "concepts": [
+      "Two heaps",
+      "balancing invariant"
+    ],
+    "approaches": "Sorted list insertion O(n); two heaps add O(log n), median O(1)",
+    "source": "https://neetcode.io/problems/find-median-in-a-data-stream/question?list=neetcode150"
+  },
+  {
+    "id": 67,
+    "slug": "subsets",
+    "topic": "Backtracking",
+    "title": "Subsets",
+    "difficulty": "Medium",
+    "concepts": [
+      "Decision tree",
+      "include/exclude",
+      "backtracking"
+    ],
+    "approaches": "Backtracking O(n·2^n) output work",
+    "source": "https://neetcode.io/problems/subsets/question?list=neetcode150"
+  },
+  {
+    "id": 68,
+    "slug": "combination-sum",
+    "topic": "Backtracking",
+    "title": "Combination Sum",
+    "difficulty": "Medium",
+    "concepts": [
+      "Backtracking with reuse",
+      "pruning"
+    ],
+    "approaches": "Exponential/output-sensitive; sorted candidates enable pruning",
+    "source": "https://neetcode.io/problems/combination-target-sum/question?list=neetcode150"
+  },
+  {
+    "id": 69,
+    "slug": "permutations",
+    "topic": "Backtracking",
+    "title": "Permutations",
+    "difficulty": "Medium",
+    "concepts": [
+      "Used set / swapping",
+      "permutation tree"
+    ],
+    "approaches": "O(n·n!) output work",
+    "source": "https://neetcode.io/problems/permutations/question?list=neetcode150"
+  },
+  {
+    "id": 70,
+    "slug": "subsets-ii",
+    "topic": "Backtracking",
+    "title": "Subsets II",
+    "difficulty": "Medium",
+    "concepts": [
+      "Sort + skip duplicates at same depth"
+    ],
+    "approaches": "O(n·2^n) output bound",
+    "source": "https://neetcode.io/problems/subsets-ii/question?list=neetcode150"
+  },
+  {
+    "id": 71,
+    "slug": "combination-sum-ii",
+    "topic": "Backtracking",
+    "title": "Combination Sum II",
+    "difficulty": "Medium",
+    "concepts": [
+      "Sort",
+      "one-use choices",
+      "duplicate skipping"
+    ],
+    "approaches": "Exponential/output-sensitive",
+    "source": "https://neetcode.io/problems/combination-target-sum-ii/question?list=neetcode150"
+  },
+  {
+    "id": 72,
+    "slug": "word-search",
+    "topic": "Backtracking",
+    "title": "Word Search",
+    "difficulty": "Medium",
+    "concepts": [
+      "Grid DFS",
+      "visited marking",
+      "backtracking"
+    ],
+    "approaches": "O(mn·4^L) worst; O(L) recursion",
+    "source": "https://neetcode.io/problems/search-for-word/question?list=neetcode150"
+  },
+  {
+    "id": 73,
+    "slug": "palindrome-partitioning",
+    "topic": "Backtracking",
+    "title": "Palindrome Partitioning",
+    "difficulty": "Medium",
+    "concepts": [
+      "Backtracking + palindrome checking/DP"
+    ],
+    "approaches": "Backtracking exponential; precompute palindromes O(n²) optional",
+    "source": "https://neetcode.io/problems/palindrome-partitioning/question?list=neetcode150"
+  },
+  {
+    "id": 74,
+    "slug": "letter-combinations-of-a-phone-number",
+    "topic": "Backtracking",
+    "title": "Letter Combinations of a Phone Number",
+    "difficulty": "Medium",
+    "concepts": [
+      "Cartesian product via backtracking"
+    ],
+    "approaches": "O(4^n·n) output work",
+    "source": "https://neetcode.io/problems/combinations-of-a-phone-number/question?list=neetcode150"
+  },
+  {
+    "id": 75,
+    "slug": "n-queens",
+    "topic": "Backtracking",
+    "title": "N-Queens",
+    "difficulty": "Hard",
+    "concepts": [
+      "Constraint sets",
+      "row-by-row backtracking"
+    ],
+    "approaches": "O(n!) rough upper bound; sets for columns/diagonals",
+    "source": "https://neetcode.io/problems/n-queens/question?list=neetcode150"
+  },
+  {
+    "id": 76,
+    "slug": "generate-parentheses",
+    "topic": "Backtracking",
+    "title": "Generate Parentheses",
+    "difficulty": "Medium",
+    "concepts": [
+      "Backtracking with open/close constraints"
+    ],
+    "approaches": "Catalan-number output; O(C_n·n)",
+    "source": "https://neetcode.io/problems/generate-parentheses/question?list=neetcode150"
+  },
+  {
+    "id": 77,
+    "slug": "implement-trie-prefix-tree",
+    "topic": "Tries",
+    "title": "Implement Trie (Prefix Tree)",
+    "difficulty": "Medium",
+    "concepts": [
+      "Trie nodes",
+      "prefix vs whole-word markers"
+    ],
+    "approaches": "Insert/search/prefix O(L), space O(total chars)",
+    "source": "https://neetcode.io/problems/implement-prefix-tree/question?list=neetcode150"
+  },
+  {
+    "id": 78,
+    "slug": "design-add-and-search-words-data-structure",
+    "topic": "Tries",
+    "title": "Design Add and Search Words Data Structure",
+    "difficulty": "Medium",
+    "concepts": [
+      "Trie + wildcard DFS"
+    ],
+    "approaches": "Add O(L); search worst branching exponential in wildcards",
+    "source": "https://neetcode.io/problems/design-word-search-data-structure/question?list=neetcode150"
+  },
+  {
+    "id": 79,
+    "slug": "word-search-ii",
+    "topic": "Tries",
+    "title": "Word Search II",
+    "difficulty": "Hard",
+    "concepts": [
+      "Trie + grid DFS",
+      "prefix pruning"
+    ],
+    "approaches": "Naive word-by-word costly; trie shares prefixes and prunes search",
+    "source": "https://neetcode.io/problems/search-for-word-ii/question?list=neetcode150"
+  },
+  {
+    "id": 80,
+    "slug": "number-of-islands",
+    "topic": "Graphs",
+    "title": "Number of Islands",
+    "difficulty": "Medium",
+    "concepts": [
+      "Grid as graph",
+      "DFS/BFS",
+      "visited"
+    ],
+    "approaches": "O(mn) time, O(mn) worst space",
+    "source": "https://neetcode.io/problems/count-number-of-islands/question?list=neetcode150"
+  },
+  {
+    "id": 81,
+    "slug": "clone-graph",
+    "topic": "Graphs",
+    "title": "Clone Graph",
+    "difficulty": "Medium",
+    "concepts": [
+      "Graph traversal",
+      "old→new map"
+    ],
+    "approaches": "DFS/BFS O(V+E)/O(V)",
+    "source": "https://neetcode.io/problems/clone-graph/question?list=neetcode150"
+  },
+  {
+    "id": 82,
+    "slug": "max-area-of-island",
+    "topic": "Graphs",
+    "title": "Max Area of Island",
+    "difficulty": "Medium",
+    "concepts": [
+      "Flood fill",
+      "component aggregation"
+    ],
+    "approaches": "DFS/BFS O(mn)",
+    "source": "https://neetcode.io/problems/max-area-of-island/question?list=neetcode150"
+  },
+  {
+    "id": 83,
+    "slug": "pacific-atlantic-water-flow",
+    "topic": "Graphs",
+    "title": "Pacific Atlantic Water Flow",
+    "difficulty": "Medium",
+    "concepts": [
+      "Reverse graph search",
+      "multi-source DFS/BFS"
+    ],
+    "approaches": "Search from each cell expensive; reverse from oceans O(mn)",
+    "source": "https://neetcode.io/problems/pacific-atlantic-water-flow/question?list=neetcode150"
+  },
+  {
+    "id": 84,
+    "slug": "surrounded-regions",
+    "topic": "Graphs",
+    "title": "Surrounded Regions",
+    "difficulty": "Medium",
+    "concepts": [
+      "Boundary-connected components",
+      "reverse marking"
+    ],
+    "approaches": "Boundary DFS/BFS O(mn)",
+    "source": "https://neetcode.io/problems/surrounded-regions/question?list=neetcode150"
+  },
+  {
+    "id": 85,
+    "slug": "rotting-oranges",
+    "topic": "Graphs",
+    "title": "Rotting Oranges",
+    "difficulty": "Medium",
+    "concepts": [
+      "Multi-source BFS",
+      "level/time layers"
+    ],
+    "approaches": "O(mn)",
+    "source": "https://neetcode.io/problems/rotting-fruit/question?list=neetcode150"
+  },
+  {
+    "id": 86,
+    "slug": "walls-and-gates",
+    "topic": "Graphs",
+    "title": "Walls and Gates",
+    "difficulty": "Medium",
+    "concepts": [
+      "Multi-source BFS",
+      "shortest unweighted distance"
+    ],
+    "approaches": "BFS from every room expensive; multi-source gates O(mn)",
+    "source": "https://neetcode.io/problems/islands-and-treasure/question?list=neetcode150"
+  },
+  {
+    "id": 87,
+    "slug": "course-schedule",
+    "topic": "Graphs",
+    "title": "Course Schedule",
+    "difficulty": "Medium",
+    "concepts": [
+      "Directed graph",
+      "cycle detection",
+      "topological sort"
+    ],
+    "approaches": "DFS colors/path or Kahn BFS O(V+E)",
+    "source": "https://neetcode.io/problems/course-schedule/question?list=neetcode150"
+  },
+  {
+    "id": 88,
+    "slug": "course-schedule-ii",
+    "topic": "Graphs",
+    "title": "Course Schedule II",
+    "difficulty": "Medium",
+    "concepts": [
+      "Topological ordering",
+      "indegree"
+    ],
+    "approaches": "Kahn BFS or DFS postorder O(V+E)",
+    "source": "https://neetcode.io/problems/course-schedule-ii/question?list=neetcode150"
+  },
+  {
+    "id": 89,
+    "slug": "graph-valid-tree",
+    "topic": "Graphs",
+    "title": "Graph Valid Tree",
+    "difficulty": "Medium",
+    "concepts": [
+      "Cycle + connectivity",
+      "Union-Find/DFS"
+    ],
+    "approaches": "DFS O(V+E); Union-Find near O(E α(V))",
+    "source": "https://neetcode.io/problems/valid-tree/question?list=neetcode150"
+  },
+  {
+    "id": 90,
+    "slug": "number-of-connected-components-in-an-undirected-graph",
+    "topic": "Graphs",
+    "title": "Number of Connected Components in an Undirected Graph",
+    "difficulty": "Medium",
+    "concepts": [
+      "Connected components",
+      "DFS/BFS",
+      "Union-Find"
+    ],
+    "approaches": "O(V+E) traversal; DSU near-linear",
+    "source": "https://neetcode.io/problems/count-connected-components/question?list=neetcode150"
+  },
+  {
+    "id": 91,
+    "slug": "redundant-connection",
+    "topic": "Graphs",
+    "title": "Redundant Connection",
+    "difficulty": "Medium",
+    "concepts": [
+      "Union-Find cycle detection"
+    ],
+    "approaches": "DSU near O(n α(n))",
+    "source": "https://neetcode.io/problems/redundant-connection/question?list=neetcode150"
+  },
+  {
+    "id": 92,
+    "slug": "word-ladder",
+    "topic": "Graphs",
+    "title": "Word Ladder",
+    "difficulty": "Hard",
+    "concepts": [
+      "Implicit graph",
+      "BFS shortest path",
+      "pattern buckets"
+    ],
+    "approaches": "BFS; optimized neighbor indexing ~O(N·L²) depending construction",
+    "source": "https://neetcode.io/problems/word-ladder/question?list=neetcode150"
+  },
+  {
+    "id": 93,
+    "slug": "reconstruct-itinerary",
+    "topic": "Advanced Graphs",
+    "title": "Reconstruct Itinerary",
+    "difficulty": "Hard",
+    "concepts": [
+      "Eulerian path",
+      "Hierholzer",
+      "lexical order"
+    ],
+    "approaches": "Sort edges + DFS, O(E log E) typically",
+    "source": "https://neetcode.io/problems/reconstruct-itinerary/question?list=neetcode150"
+  },
+  {
+    "id": 94,
+    "slug": "min-cost-to-connect-all-points",
+    "topic": "Advanced Graphs",
+    "title": "Min Cost to Connect All Points",
+    "difficulty": "Medium",
+    "concepts": [
+      "Minimum spanning tree",
+      "Prim/Kruskal"
+    ],
+    "approaches": "Dense Prim O(n²); edge Kruskal O(n² log n)",
+    "source": "https://neetcode.io/problems/min-cost-to-connect-points/question?list=neetcode150"
+  },
+  {
+    "id": 95,
+    "slug": "network-delay-time",
+    "topic": "Advanced Graphs",
+    "title": "Network Delay Time",
+    "difficulty": "Medium",
+    "concepts": [
+      "Dijkstra",
+      "weighted shortest paths",
+      "heap"
+    ],
+    "approaches": "Dijkstra O((V+E) log V)",
+    "source": "https://neetcode.io/problems/network-delay-time/question?list=neetcode150"
+  },
+  {
+    "id": 96,
+    "slug": "swim-in-rising-water",
+    "topic": "Advanced Graphs",
+    "title": "Swim in Rising Water",
+    "difficulty": "Hard",
+    "concepts": [
+      "Minimax path",
+      "Dijkstra/binary search + reachability"
+    ],
+    "approaches": "Dijkstra O(n² log n); binary search + DFS alternative",
+    "source": "https://neetcode.io/problems/swim-in-rising-water/question?list=neetcode150"
+  },
+  {
+    "id": 97,
+    "slug": "alien-dictionary",
+    "topic": "Advanced Graphs",
+    "title": "Alien Dictionary",
+    "difficulty": "Hard",
+    "concepts": [
+      "Graph construction from ordering",
+      "topo sort",
+      "invalid prefix"
+    ],
+    "approaches": "Build edges + topo O(total chars + V+E)",
+    "source": "https://neetcode.io/problems/foreign-dictionary/question?list=neetcode150"
+  },
+  {
+    "id": 98,
+    "slug": "cheapest-flights-within-k-stops",
+    "topic": "Advanced Graphs",
+    "title": "Cheapest Flights Within K Stops",
+    "difficulty": "Medium",
+    "concepts": [
+      "Bellman-Ford layers",
+      "constrained shortest path"
+    ],
+    "approaches": "K+1 relaxations O(K·E); stateful heap alternative",
+    "source": "https://neetcode.io/problems/cheapest-flight-path/question?list=neetcode150"
+  },
+  {
+    "id": 99,
+    "slug": "climbing-stairs",
+    "topic": "1-D Dynamic Programming",
+    "title": "Climbing Stairs",
+    "difficulty": "Easy",
+    "concepts": [
+      "1-D DP",
+      "Fibonacci recurrence",
+      "state compression"
+    ],
+    "approaches": "Memo/tabulation O(n); O(1) compressed space",
+    "source": "https://neetcode.io/problems/climbing-stairs/question?list=neetcode150"
+  },
+  {
+    "id": 100,
+    "slug": "min-cost-climbing-stairs",
+    "topic": "1-D Dynamic Programming",
+    "title": "Min Cost Climbing Stairs",
+    "difficulty": "Easy",
+    "concepts": [
+      "DP state definition",
+      "recurrence"
+    ],
+    "approaches": "Top-down/bottom-up O(n); O(1) compressed",
+    "source": "https://neetcode.io/problems/min-cost-climbing-stairs/question?list=neetcode150"
+  },
+  {
+    "id": 101,
+    "slug": "house-robber",
+    "topic": "1-D Dynamic Programming",
+    "title": "House Robber",
+    "difficulty": "Medium",
+    "concepts": [
+      "Take/skip recurrence",
+      "non-adjacent choices"
+    ],
+    "approaches": "DP O(n); O(1) compressed",
+    "source": "https://neetcode.io/problems/house-robber/question?list=neetcode150"
+  },
+  {
+    "id": 102,
+    "slug": "house-robber-ii",
+    "topic": "1-D Dynamic Programming",
+    "title": "House Robber II",
+    "difficulty": "Medium",
+    "concepts": [
+      "Circular constraint",
+      "reduce to two linear cases"
+    ],
+    "approaches": "Two House Robber runs O(n)",
+    "source": "https://neetcode.io/problems/house-robber-ii/question?list=neetcode150"
+  },
+  {
+    "id": 103,
+    "slug": "longest-palindromic-substring",
+    "topic": "1-D Dynamic Programming",
+    "title": "Longest Palindromic Substring",
+    "difficulty": "Medium",
+    "concepts": [
+      "Expand around center",
+      "interval DP alternative"
+    ],
+    "approaches": "Brute O(n³); expand centers O(n²)/O(1); DP O(n²)",
+    "source": "https://neetcode.io/problems/longest-palindromic-substring/question?list=neetcode150"
+  },
+  {
+    "id": 104,
+    "slug": "palindromic-substrings",
+    "topic": "1-D Dynamic Programming",
+    "title": "Palindromic Substrings",
+    "difficulty": "Medium",
+    "concepts": [
+      "Center expansion",
+      "counting"
+    ],
+    "approaches": "Expand centers O(n²)/O(1); DP O(n²)",
+    "source": "https://neetcode.io/problems/palindromic-substrings/question?list=neetcode150"
+  },
+  {
+    "id": 105,
+    "slug": "decode-ways",
+    "topic": "1-D Dynamic Programming",
+    "title": "Decode Ways",
+    "difficulty": "Medium",
+    "concepts": [
+      "DP over prefixes",
+      "valid one/two-digit transitions"
+    ],
+    "approaches": "Memo/tabulation O(n); O(1) possible",
+    "source": "https://neetcode.io/problems/decode-ways/question?list=neetcode150"
+  },
+  {
+    "id": 106,
+    "slug": "coin-change",
+    "topic": "1-D Dynamic Programming",
+    "title": "Coin Change",
+    "difficulty": "Medium",
+    "concepts": [
+      "Unbounded knapsack",
+      "min DP"
+    ],
+    "approaches": "Brute recursion exponential; DP O(amount·coins)",
+    "source": "https://neetcode.io/problems/coin-change/question?list=neetcode150"
+  },
+  {
+    "id": 107,
+    "slug": "maximum-product-subarray",
+    "topic": "1-D Dynamic Programming",
+    "title": "Maximum Product Subarray",
+    "difficulty": "Medium",
+    "concepts": [
+      "Track max and min ending here",
+      "sign flips"
+    ],
+    "approaches": "O(n)/O(1)",
+    "source": "https://neetcode.io/problems/maximum-product-subarray/question?list=neetcode150"
+  },
+  {
+    "id": 108,
+    "slug": "word-break",
+    "topic": "1-D Dynamic Programming",
+    "title": "Word Break",
+    "difficulty": "Medium",
+    "concepts": [
+      "Prefix DP",
+      "dictionary lookup"
+    ],
+    "approaches": "DP O(n²) typical; trie optimizations possible",
+    "source": "https://neetcode.io/problems/word-break/question?list=neetcode150"
+  },
+  {
+    "id": 109,
+    "slug": "longest-increasing-subsequence",
+    "topic": "1-D Dynamic Programming",
+    "title": "Longest Increasing Subsequence",
+    "difficulty": "Medium",
+    "concepts": [
+      "DP O(n²)",
+      "patience sorting/binary search O(n log n)"
+    ],
+    "approaches": "Compare quadratic DP vs tails array",
+    "source": "https://neetcode.io/problems/longest-increasing-subsequence/question?list=neetcode150"
+  },
+  {
+    "id": 110,
+    "slug": "partition-equal-subset-sum",
+    "topic": "1-D Dynamic Programming",
+    "title": "Partition Equal Subset Sum",
+    "difficulty": "Medium",
+    "concepts": [
+      "0/1 knapsack",
+      "reachable sums",
+      "set/boolean DP"
+    ],
+    "approaches": "DP O(n·sum), space O(sum)",
+    "source": "https://neetcode.io/problems/partition-equal-subset-sum/question?list=neetcode150"
+  },
+  {
+    "id": 111,
+    "slug": "unique-paths",
+    "topic": "2-D Dynamic Programming",
+    "title": "Unique Paths",
+    "difficulty": "Medium",
+    "concepts": [
+      "Grid DP",
+      "combinatorics",
+      "state compression"
+    ],
+    "approaches": "2-D DP O(mn)/O(mn); 1-D O(mn)/O(n)",
+    "source": "https://neetcode.io/problems/count-paths/question?list=neetcode150"
+  },
+  {
+    "id": 112,
+    "slug": "longest-common-subsequence",
+    "topic": "2-D Dynamic Programming",
+    "title": "Longest Common Subsequence",
+    "difficulty": "Medium",
+    "concepts": [
+      "2-D sequence DP",
+      "suffix/prefix states"
+    ],
+    "approaches": "DP O(mn)/O(mn), space compressible",
+    "source": "https://neetcode.io/problems/longest-common-subsequence/question?list=neetcode150"
+  },
+  {
+    "id": 113,
+    "slug": "best-time-to-buy-and-sell-stock-with-cooldown",
+    "topic": "2-D Dynamic Programming",
+    "title": "Best Time to Buy and Sell Stock with Cooldown",
+    "difficulty": "Medium",
+    "concepts": [
+      "State-machine DP",
+      "hold/sold/cooldown"
+    ],
+    "approaches": "DP O(n)/O(1) compressed",
+    "source": "https://neetcode.io/problems/buy-and-sell-crypto-with-cooldown/question?list=neetcode150"
+  },
+  {
+    "id": 114,
+    "slug": "coin-change-ii",
+    "topic": "2-D Dynamic Programming",
+    "title": "Coin Change II",
+    "difficulty": "Medium",
+    "concepts": [
+      "Unbounded knapsack counting",
+      "loop ordering"
+    ],
+    "approaches": "DP O(amount·coins)/O(amount)",
+    "source": "https://neetcode.io/problems/coin-change-ii/question?list=neetcode150"
+  },
+  {
+    "id": 115,
+    "slug": "target-sum",
+    "topic": "2-D Dynamic Programming",
+    "title": "Target Sum",
+    "difficulty": "Medium",
+    "concepts": [
+      "Memo DFS",
+      "subset-sum transformation"
+    ],
+    "approaches": "Memo O(n·sum); subset DP alternative",
+    "source": "https://neetcode.io/problems/target-sum/question?list=neetcode150"
+  },
+  {
+    "id": 116,
+    "slug": "interleaving-string",
+    "topic": "2-D Dynamic Programming",
+    "title": "Interleaving String",
+    "difficulty": "Medium",
+    "concepts": [
+      "2-D DP on prefixes"
+    ],
+    "approaches": "O(mn) time; O(n) possible space",
+    "source": "https://neetcode.io/problems/interleaving-string/question?list=neetcode150"
+  },
+  {
+    "id": 117,
+    "slug": "longest-increasing-path-in-a-matrix",
+    "topic": "2-D Dynamic Programming",
+    "title": "Longest Increasing Path in a Matrix",
+    "difficulty": "Hard",
+    "concepts": [
+      "DFS + memoization",
+      "DAG perspective"
+    ],
+    "approaches": "Memo DFS O(mn)",
+    "source": "https://neetcode.io/problems/longest-increasing-path-in-matrix/question?list=neetcode150"
+  },
+  {
+    "id": 118,
+    "slug": "distinct-subsequences",
+    "topic": "2-D Dynamic Programming",
+    "title": "Distinct Subsequences",
+    "difficulty": "Hard",
+    "concepts": [
+      "2-D counting DP",
+      "include/skip"
+    ],
+    "approaches": "O(mn), compressible to O(n)",
+    "source": "https://neetcode.io/problems/count-subsequences/question?list=neetcode150"
+  },
+  {
+    "id": 119,
+    "slug": "edit-distance",
+    "topic": "2-D Dynamic Programming",
+    "title": "Edit Distance",
+    "difficulty": "Medium",
+    "concepts": [
+      "2-D DP",
+      "insert/delete/replace"
+    ],
+    "approaches": "O(mn), space O(min(m,n)) possible",
+    "source": "https://neetcode.io/problems/edit-distance/question?list=neetcode150"
+  },
+  {
+    "id": 120,
+    "slug": "burst-balloons",
+    "topic": "2-D Dynamic Programming",
+    "title": "Burst Balloons",
+    "difficulty": "Hard",
+    "concepts": [
+      "Interval DP",
+      "choose last operation"
+    ],
+    "approaches": "O(n³) time/O(n²) space",
+    "source": "https://neetcode.io/problems/burst-balloons/question?list=neetcode150"
+  },
+  {
+    "id": 121,
+    "slug": "regular-expression-matching",
+    "topic": "2-D Dynamic Programming",
+    "title": "Regular Expression Matching",
+    "difficulty": "Hard",
+    "concepts": [
+      "2-D DP/memo",
+      "pattern operators . and *"
+    ],
+    "approaches": "O(mn)",
+    "source": "https://neetcode.io/problems/regular-expression-matching/question?list=neetcode150"
+  },
+  {
+    "id": 122,
+    "slug": "maximum-subarray",
+    "topic": "Greedy",
+    "title": "Maximum Subarray",
+    "difficulty": "Medium",
+    "concepts": [
+      "Kadane",
+      "local vs global optimum"
+    ],
+    "approaches": "Brute O(n²); Kadane O(n)/O(1)",
+    "source": "https://neetcode.io/problems/maximum-subarray/question?list=neetcode150"
+  },
+  {
+    "id": 123,
+    "slug": "jump-game",
+    "topic": "Greedy",
+    "title": "Jump Game",
+    "difficulty": "Medium",
+    "concepts": [
+      "Greedy farthest reach",
+      "DP comparison"
+    ],
+    "approaches": "DP O(n²); greedy O(n)/O(1)",
+    "source": "https://neetcode.io/problems/jump-game/question?list=neetcode150"
+  },
+  {
+    "id": 124,
+    "slug": "jump-game-ii",
+    "topic": "Greedy",
+    "title": "Jump Game II",
+    "difficulty": "Medium",
+    "concepts": [
+      "Greedy BFS-layer interpretation"
+    ],
+    "approaches": "DP O(n²); greedy O(n)/O(1)",
+    "source": "https://neetcode.io/problems/jump-game-ii/question?list=neetcode150"
+  },
+  {
+    "id": 125,
+    "slug": "gas-station",
+    "topic": "Greedy",
+    "title": "Gas Station",
+    "difficulty": "Medium",
+    "concepts": [
+      "Global feasibility + reset greedy start"
+    ],
+    "approaches": "Brute O(n²); greedy O(n)/O(1)",
+    "source": "https://neetcode.io/problems/gas-station/question?list=neetcode150"
+  },
+  {
+    "id": 126,
+    "slug": "hand-of-straights",
+    "topic": "Greedy",
+    "title": "Hand of Straights",
+    "difficulty": "Medium",
+    "concepts": [
+      "Greedy frequency consumption",
+      "sorting/heap"
+    ],
+    "approaches": "Sort/map O(n log n); heap variant",
+    "source": "https://neetcode.io/problems/hand-of-straights/question?list=neetcode150"
+  },
+  {
+    "id": 127,
+    "slug": "merge-triplets-to-form-target-triplet",
+    "topic": "Greedy",
+    "title": "Merge Triplets to Form Target Triplet",
+    "difficulty": "Medium",
+    "concepts": [
+      "Greedy filtering",
+      "coordinate coverage"
+    ],
+    "approaches": "O(n)/O(1)",
+    "source": "https://neetcode.io/problems/merge-triplets-to-form-target/question?list=neetcode150"
+  },
+  {
+    "id": 128,
+    "slug": "partition-labels",
+    "topic": "Greedy",
+    "title": "Partition Labels",
+    "difficulty": "Medium",
+    "concepts": [
+      "Last occurrence",
+      "greedy segment closure"
+    ],
+    "approaches": "O(n)/O(k)",
+    "source": "https://neetcode.io/problems/partition-labels/question?list=neetcode150"
+  },
+  {
+    "id": 129,
+    "slug": "valid-parenthesis-string",
+    "topic": "Greedy",
+    "title": "Valid Parenthesis String",
+    "difficulty": "Medium",
+    "concepts": [
+      "Greedy range of possible open counts"
+    ],
+    "approaches": "DP/stack alternatives; greedy O(n)/O(1)",
+    "source": "https://neetcode.io/problems/valid-parenthesis-string/question?list=neetcode150"
+  },
+  {
+    "id": 130,
+    "slug": "insert-interval",
+    "topic": "Intervals",
+    "title": "Insert Interval",
+    "difficulty": "Medium",
+    "concepts": [
+      "Interval merging",
+      "ordered scan"
+    ],
+    "approaches": "O(n)",
+    "source": "https://neetcode.io/problems/insert-new-interval/question?list=neetcode150"
+  },
+  {
+    "id": 131,
+    "slug": "merge-intervals",
+    "topic": "Intervals",
+    "title": "Merge Intervals",
+    "difficulty": "Medium",
+    "concepts": [
+      "Sort then merge",
+      "overlap invariant"
+    ],
+    "approaches": "O(n log n)",
+    "source": "https://neetcode.io/problems/merge-intervals/question?list=neetcode150"
+  },
+  {
+    "id": 132,
+    "slug": "non-overlapping-intervals",
+    "topic": "Intervals",
+    "title": "Non-overlapping Intervals",
+    "difficulty": "Medium",
+    "concepts": [
+      "Greedy keep earliest finish",
+      "exchange argument"
+    ],
+    "approaches": "DP possible; greedy after sort O(n log n)",
+    "source": "https://neetcode.io/problems/non-overlapping-intervals/question?list=neetcode150"
+  },
+  {
+    "id": 133,
+    "slug": "meeting-rooms",
+    "topic": "Intervals",
+    "title": "Meeting Rooms",
+    "difficulty": "Easy",
+    "concepts": [
+      "Sort intervals",
+      "overlap detection"
+    ],
+    "approaches": "O(n log n)",
+    "source": "https://neetcode.io/problems/meeting-schedule/question?list=neetcode150"
+  },
+  {
+    "id": 134,
+    "slug": "meeting-rooms-ii",
+    "topic": "Intervals",
+    "title": "Meeting Rooms II",
+    "difficulty": "Medium",
+    "concepts": [
+      "Sweep line",
+      "min heap",
+      "two sorted arrays"
+    ],
+    "approaches": "Heap O(n log n); sweep/two arrays O(n log n)",
+    "source": "https://neetcode.io/problems/meeting-schedule-ii/question?list=neetcode150"
+  },
+  {
+    "id": 135,
+    "slug": "minimum-interval-to-include-each-query",
+    "topic": "Intervals",
+    "title": "Minimum Interval to Include Each Query",
+    "difficulty": "Hard",
+    "concepts": [
+      "Offline sorting",
+      "min-heap by interval size"
+    ],
+    "approaches": "Sort intervals/queries + heap O((n+q) log n)",
+    "source": "https://neetcode.io/problems/minimum-interval-including-query/question?list=neetcode150"
+  },
+  {
+    "id": 136,
+    "slug": "rotate-image",
+    "topic": "Math & Geometry",
+    "title": "Rotate Image",
+    "difficulty": "Medium",
+    "concepts": [
+      "Matrix layers",
+      "transpose+reverse",
+      "coordinate mapping"
+    ],
+    "approaches": "O(n²)/O(1)",
+    "source": "https://neetcode.io/problems/rotate-matrix/question?list=neetcode150"
+  },
+  {
+    "id": 137,
+    "slug": "spiral-matrix",
+    "topic": "Math & Geometry",
+    "title": "Spiral Matrix",
+    "difficulty": "Medium",
+    "concepts": [
+      "Boundary simulation",
+      "invariants"
+    ],
+    "approaches": "O(mn)/O(1)",
+    "source": "https://neetcode.io/problems/spiral-matrix/question?list=neetcode150"
+  },
+  {
+    "id": 138,
+    "slug": "set-matrix-zeroes",
+    "topic": "Math & Geometry",
+    "title": "Set Matrix Zeroes",
+    "difficulty": "Medium",
+    "concepts": [
+      "In-place markers",
+      "first row/column flags"
+    ],
+    "approaches": "Extra sets O(m+n); in-place O(1) extra",
+    "source": "https://neetcode.io/problems/set-zeroes-in-matrix/question?list=neetcode150"
+  },
+  {
+    "id": 139,
+    "slug": "happy-number",
+    "topic": "Math & Geometry",
+    "title": "Happy Number",
+    "difficulty": "Easy",
+    "concepts": [
+      "Cycle detection",
+      "digit-square transform"
+    ],
+    "approaches": "Set O(log n) space; Floyd O(1) space",
+    "source": "https://neetcode.io/problems/non-cyclical-number/question?list=neetcode150"
+  },
+  {
+    "id": 140,
+    "slug": "plus-one",
+    "topic": "Math & Geometry",
+    "title": "Plus One",
+    "difficulty": "Easy",
+    "concepts": [
+      "Carry propagation",
+      "digit arrays"
+    ],
+    "approaches": "O(n)",
+    "source": "https://neetcode.io/problems/plus-one/question?list=neetcode150"
+  },
+  {
+    "id": 141,
+    "slug": "pow-x-n",
+    "topic": "Math & Geometry",
+    "title": "Pow(x, n)",
+    "difficulty": "Medium",
+    "concepts": [
+      "Exponentiation by squaring",
+      "recursion/iteration"
+    ],
+    "approaches": "O(log |n|)",
+    "source": "https://neetcode.io/problems/pow-x-n/question?list=neetcode150"
+  },
+  {
+    "id": 142,
+    "slug": "multiply-strings",
+    "topic": "Math & Geometry",
+    "title": "Multiply Strings",
+    "difficulty": "Medium",
+    "concepts": [
+      "Grade-school multiplication",
+      "digit arrays"
+    ],
+    "approaches": "O(mn)/O(m+n)",
+    "source": "https://neetcode.io/problems/multiply-strings/question?list=neetcode150"
+  },
+  {
+    "id": 143,
+    "slug": "detect-squares",
+    "topic": "Math & Geometry",
+    "title": "Detect Squares",
+    "difficulty": "Medium",
+    "concepts": [
+      "Coordinate counting",
+      "geometry enumeration"
+    ],
+    "approaches": "Hash counts; add O(1), count O(number of candidate points)",
+    "source": "https://neetcode.io/problems/detect-squares/question?list=neetcode150"
+  },
+  {
+    "id": 144,
+    "slug": "single-number",
+    "topic": "Bit Manipulation",
+    "title": "Single Number",
+    "difficulty": "Easy",
+    "concepts": [
+      "XOR identities"
+    ],
+    "approaches": "Set/sum alternatives; XOR O(n)/O(1)",
+    "source": "https://neetcode.io/problems/single-number/question?list=neetcode150"
+  },
+  {
+    "id": 145,
+    "slug": "number-of-1-bits",
+    "topic": "Bit Manipulation",
+    "title": "Number of 1 Bits",
+    "difficulty": "Easy",
+    "concepts": [
+      "Bit shifts",
+      "n&(n-1) trick"
+    ],
+    "approaches": "O(word size) or O(number of set bits)",
+    "source": "https://neetcode.io/problems/number-of-one-bits/question?list=neetcode150"
+  },
+  {
+    "id": 146,
+    "slug": "counting-bits",
+    "topic": "Bit Manipulation",
+    "title": "Counting Bits",
+    "difficulty": "Easy",
+    "concepts": [
+      "Bit DP",
+      "recurrence from shifted number"
+    ],
+    "approaches": "O(n)/O(n) output",
+    "source": "https://neetcode.io/problems/counting-bits/question?list=neetcode150"
+  },
+  {
+    "id": 147,
+    "slug": "reverse-bits",
+    "topic": "Bit Manipulation",
+    "title": "Reverse Bits",
+    "difficulty": "Easy",
+    "concepts": [
+      "Bit extraction and placement"
+    ],
+    "approaches": "O(word size)/O(1)",
+    "source": "https://neetcode.io/problems/reverse-bits/question?list=neetcode150"
+  },
+  {
+    "id": 148,
+    "slug": "missing-number",
+    "topic": "Bit Manipulation",
+    "title": "Missing Number",
+    "difficulty": "Easy",
+    "concepts": [
+      "XOR",
+      "arithmetic sum",
+      "set"
+    ],
+    "approaches": "XOR O(n)/O(1); sum O(n)/O(1)",
+    "source": "https://neetcode.io/problems/missing-number/question?list=neetcode150"
+  },
+  {
+    "id": 149,
+    "slug": "sum-of-two-integers",
+    "topic": "Bit Manipulation",
+    "title": "Sum of Two Integers",
+    "difficulty": "Medium",
+    "concepts": [
+      "Bitwise addition",
+      "carry",
+      "fixed-width Python handling"
+    ],
+    "approaches": "O(word size)/O(1)",
+    "source": "https://neetcode.io/problems/sum-of-two-integers/question?list=neetcode150"
+  },
+  {
+    "id": 150,
+    "slug": "reverse-integer",
+    "topic": "Bit Manipulation",
+    "title": "Reverse Integer",
+    "difficulty": "Medium",
+    "concepts": [
+      "Digit extraction",
+      "overflow bounds"
+    ],
+    "approaches": "O(log |x|)/O(1)",
+    "source": "https://neetcode.io/problems/reverse-integer/question?list=neetcode150"
+  }
+]

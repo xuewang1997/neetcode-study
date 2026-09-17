@@ -1,0 +1,1478 @@
+[
+  {
+    "day": 1,
+    "week": 1,
+    "dayType": "Concept",
+    "focus": "Arrays & Hashing foundations",
+    "problems": [
+      {
+        "id": 1,
+        "title": "Contains Duplicate",
+        "mode": "new"
+      },
+      {
+        "id": 2,
+        "title": "Valid Anagram",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      1,
+      2
+    ],
+    "conceptLesson": "Big-O refresh; Python list/set/dict cost model; hash-set membership; frequency counting.",
+    "learningGoals": "Derive pair-scan/sorting/hash solutions. Explain average O(1) hash lookup and when fixed-size counts beat a dict.",
+    "reviewPlan": "D+2/D+7 reviews are generated automatically after completion.",
+    "block": "60m concept + 2 x 70m problems + 45m compare solutions + 35m notes/review",
+    "review": "D+2/D+7 reviews are generated automatically after completion."
+  },
+  {
+    "day": 2,
+    "week": 1,
+    "dayType": "Practice",
+    "focus": "Hash maps as lookup structures",
+    "problems": [
+      {
+        "id": 3,
+        "title": "Two Sum",
+        "mode": "new"
+      },
+      {
+        "id": 4,
+        "title": "Group Anagrams",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      3,
+      4
+    ],
+    "conceptLesson": "Complement lookup; canonical representation; tuple/string keys; time-space tradeoffs.",
+    "learningGoals": "For Two Sum, derive brute force -> two-pass map -> one-pass map. For Group Anagrams, compare sorted-key vs frequency-signature keys.",
+    "reviewPlan": "Review Day 1 concepts for 20-30m.",
+    "block": "35m review + 2 x 75m problems + 60m alternatives + 30m notes",
+    "review": "Review Day 1 concepts for 20-30m."
+  },
+  {
+    "day": 3,
+    "week": 1,
+    "dayType": "Concept",
+    "focus": "Frequency, buckets, prefix/suffix",
+    "problems": [
+      {
+        "id": 5,
+        "title": "Top K Frequent Elements",
+        "mode": "new"
+      },
+      {
+        "id": 6,
+        "title": "Product of Array Except Self",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      5,
+      6
+    ],
+    "conceptLesson": "Frequency maps; heap vs bucket sort; prefix/suffix decomposition.",
+    "learningGoals": "Understand why Top-K can be O(n) with buckets. Derive Product Except Self from division/brute force to prefix/suffix and O(1) extra space.",
+    "reviewPlan": "D+2 review: Day 1 problems.",
+    "block": "45m review + 45m concept + 2 x 75m problems + 30m notes",
+    "review": "D+2 review: Day 1 problems."
+  },
+  {
+    "day": 4,
+    "week": 1,
+    "dayType": "Practice",
+    "focus": "Constraint tracking and serialization",
+    "problems": [
+      {
+        "id": 7,
+        "title": "Valid Sudoku",
+        "mode": "new"
+      },
+      {
+        "id": 8,
+        "title": "Encode and Decode Strings",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      7,
+      8
+    ],
+    "conceptLesson": "Multiple hash sets; composite constraints; unambiguous encoding; length-prefix protocols.",
+    "learningGoals": "Focus on representation choices and correctness, not memorizing syntax.",
+    "reviewPlan": "D+2 review: Day 2 problems.",
+    "block": "40m review + 2 x 80m problems + 45m alternatives + 25m notes",
+    "review": "D+2 review: Day 2 problems."
+  },
+  {
+    "day": 5,
+    "week": 1,
+    "dayType": "Concept",
+    "focus": "Set-based sequence reasoning",
+    "problems": [
+      {
+        "id": 9,
+        "title": "Longest Consecutive Sequence",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      9
+    ],
+    "conceptLesson": "Set membership; identifying sequence starts; amortized reasoning.",
+    "learningGoals": "Compare sorting O(n log n) with hash-set O(n). Prove why each element is visited only as part of one sequence.",
+    "reviewPlan": "D+2 review: Day 3 problems.",
+    "block": "45m review + 60m concept + 100m problem/deep dive + 45m re-derive + 30m notes",
+    "review": "D+2 review: Day 3 problems."
+  },
+  {
+    "day": 6,
+    "week": 1,
+    "dayType": "Concept",
+    "focus": "Two pointers",
+    "problems": [
+      {
+        "id": 10,
+        "title": "Valid Palindrome",
+        "mode": "new"
+      },
+      {
+        "id": 11,
+        "title": "Two Sum II - Input Array Is Sorted",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      10,
+      11
+    ],
+    "conceptLesson": "Opposing pointers; sorted-array invariants; skipping irrelevant characters.",
+    "learningGoals": "State the invariant before coding. Compare hash-map Two Sum with sorted two-pointer Two Sum.",
+    "reviewPlan": "D+2 review: Day 4 problems.",
+    "block": "50m concept + 2 x 70m problems + 50m comparison + 30m notes",
+    "review": "D+2 review: Day 4 problems."
+  },
+  {
+    "day": 7,
+    "week": 1,
+    "dayType": "Integration",
+    "focus": "Week 1 consolidation",
+    "problems": [
+      {
+        "id": 12,
+        "title": "3Sum",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      12
+    ],
+    "conceptLesson": "Sort + fixed pivot + two pointers; duplicate elimination; moving from 2Sum to 3Sum.",
+    "learningGoals": "Spend most of the day deriving 3Sum carefully. Re-solve two weak Week-1 problems without notes.",
+    "reviewPlan": "D+2 review: Day 5; D+7 review begins for Day 1.",
+    "block": "45m reviews + 120m 3Sum + 60m weak-problem re-solves + 35m notes",
+    "review": "D+2 review: Day 5; D+7 review begins for Day 1."
+  },
+  {
+    "day": 8,
+    "week": 2,
+    "dayType": "Practice",
+    "focus": "Two pointers tradeoffs",
+    "problems": [
+      {
+        "id": 13,
+        "title": "Container With Most Water",
+        "mode": "new"
+      },
+      {
+        "id": 14,
+        "title": "Trapping Rain Water",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      13,
+      14
+    ],
+    "conceptLesson": "Greedy pointer movement; left/right maxima; proof by eliminating impossible choices.",
+    "learningGoals": "Container is the bridge; Trapping Rain Water gets extra time. Compare prefix maxima, two pointers, and stack intuition.",
+    "reviewPlan": "D+2 review: Day 6; D+7 review: Day 2.",
+    "block": "35m review + 75m Container + 120m Trapping Rain Water + 30m notes",
+    "review": "D+2 review: Day 6; D+7 review: Day 2."
+  },
+  {
+    "day": 9,
+    "week": 2,
+    "dayType": "Concept",
+    "focus": "Sliding window foundations",
+    "problems": [
+      {
+        "id": 15,
+        "title": "Best Time to Buy and Sell Stock",
+        "mode": "new"
+      },
+      {
+        "id": 16,
+        "title": "Longest Substring Without Repeating Characters",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      15,
+      16
+    ],
+    "conceptLesson": "Running minimum; variable-size windows; validity invariant; frequency/set maintenance.",
+    "learningGoals": "Learn the window template as an invariant, not as memorized left/right code.",
+    "reviewPlan": "D+2 review: Day 7; D+7 review: Day 3.",
+    "block": "55m concept + 2 x 75m problems + 45m template notes + 25m review",
+    "review": "D+2 review: Day 7; D+7 review: Day 3."
+  },
+  {
+    "day": 10,
+    "week": 2,
+    "dayType": "Practice",
+    "focus": "Sliding-window constraints",
+    "problems": [
+      {
+        "id": 17,
+        "title": "Longest Repeating Character Replacement",
+        "mode": "new"
+      },
+      {
+        "id": 18,
+        "title": "Permutation in String",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      17,
+      18
+    ],
+    "conceptLesson": "Window validity; max-frequency reasoning; fixed-size frequency window.",
+    "learningGoals": "Explain why stale max-frequency is safe in Character Replacement. Compare variable and fixed windows.",
+    "reviewPlan": "D+2 review: Day 8; D+7 review: Day 4.",
+    "block": "35m review + 2 x 90m problems + 45m compare + 20m notes",
+    "review": "D+2 review: Day 8; D+7 review: Day 4."
+  },
+  {
+    "day": 11,
+    "week": 2,
+    "dayType": "Deep Dive",
+    "focus": "Hard sliding window",
+    "problems": [
+      {
+        "id": 19,
+        "title": "Minimum Window Substring",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      19
+    ],
+    "conceptLesson": "Need/formed counts; minimum valid window; shrinking while preserving validity.",
+    "learningGoals": "Treat as a capstone for sliding window. Derive from brute force and write the window invariant explicitly.",
+    "reviewPlan": "D+2 review: Day 9; D+7 review: Day 5.",
+    "block": "40m review + 60m concept + 140m problem + 40m postmortem",
+    "review": "D+2 review: Day 9; D+7 review: Day 5."
+  },
+  {
+    "day": 12,
+    "week": 2,
+    "dayType": "Concept",
+    "focus": "Stack foundations",
+    "problems": [
+      {
+        "id": 21,
+        "title": "Valid Parentheses",
+        "mode": "new"
+      },
+      {
+        "id": 22,
+        "title": "Min Stack",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      21,
+      22
+    ],
+    "conceptLesson": "LIFO; matching pairs; auxiliary state; prefix minima.",
+    "learningGoals": "Implement stack patterns from scratch. For Min Stack, compare recomputing minimum vs storing historical minima.",
+    "reviewPlan": "D+2 review: Day 10; D+7 review: Day 6.",
+    "block": "45m concept + 2 x 70m problems + 45m alternatives + 35m review",
+    "review": "D+2 review: Day 10; D+7 review: Day 6."
+  },
+  {
+    "day": 13,
+    "week": 2,
+    "dayType": "Practice",
+    "focus": "Monotonic stack",
+    "problems": [
+      {
+        "id": 23,
+        "title": "Evaluate Reverse Polish Notation",
+        "mode": "new"
+      },
+      {
+        "id": 25,
+        "title": "Daily Temperatures",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      23,
+      25
+    ],
+    "conceptLesson": "Expression evaluation; monotonic decreasing stack; next-greater-element pattern.",
+    "learningGoals": "For Daily Temperatures, derive why unresolved indices belong on the stack and why each index is pushed/popped once.",
+    "reviewPlan": "D+2 review: Day 11; D+7 review: Day 7.",
+    "block": "35m review + 70m RPN + 100m Daily Temperatures + 45m generalization",
+    "review": "D+2 review: Day 11; D+7 review: Day 7."
+  },
+  {
+    "day": 14,
+    "week": 2,
+    "dayType": "Integration",
+    "focus": "Stack applications",
+    "problems": [
+      {
+        "id": 26,
+        "title": "Car Fleet",
+        "mode": "new"
+      },
+      {
+        "id": 76,
+        "title": "Generate Parentheses",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      26,
+      76
+    ],
+    "conceptLesson": "Monotonic arrival times; monotonic stack boundaries; contribution of each bar.",
+    "learningGoals": "Car Fleet first; Largest Rectangle is a deep-dive hard problem. It is acceptable to finish the latter on the next study day.",
+    "reviewPlan": "D+2 review: Day 12; D+7 review: Day 8.",
+    "block": "35m review + 80m Car Fleet + 130m Histogram + 25m notes",
+    "review": "D+2 review: Day 12; D+7 review: Day 8."
+  },
+  {
+    "day": 15,
+    "week": 3,
+    "dayType": "Concept",
+    "focus": "Binary search invariants",
+    "problems": [
+      {
+        "id": 27,
+        "title": "Binary Search",
+        "mode": "new"
+      },
+      {
+        "id": 28,
+        "title": "Search a 2D Matrix",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      27,
+      28
+    ],
+    "conceptLesson": "Closed vs half-open intervals; loop invariants; mapping 1-D index to matrix coordinates.",
+    "learningGoals": "Be able to explain why boundaries move and why the target cannot be discarded.",
+    "reviewPlan": "D+2 review: Day 13; D+7 review: Day 9.",
+    "block": "70m concept/implementation drills + 2 x 65m problems + 40m review",
+    "review": "D+2 review: Day 13; D+7 review: Day 9."
+  },
+  {
+    "day": 16,
+    "week": 3,
+    "dayType": "Concept",
+    "focus": "Binary search on answer",
+    "problems": [
+      {
+        "id": 29,
+        "title": "Koko Eating Bananas",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      29
+    ],
+    "conceptLesson": "Monotonic feasibility predicate; answer space vs input space.",
+    "learningGoals": "Derive the predicate first. Explain why feasibility changes monotonically as eating speed increases.",
+    "reviewPlan": "D+2 review: Day 14; D+7 review: Day 10.",
+    "block": "45m review + 75m concept + 120m Koko + 30m notes",
+    "review": "D+2 review: Day 14; D+7 review: Day 10."
+  },
+  {
+    "day": 17,
+    "week": 3,
+    "dayType": "Practice",
+    "focus": "Rotated-array search",
+    "problems": [
+      {
+        "id": 30,
+        "title": "Find Minimum in Rotated Sorted Array",
+        "mode": "new"
+      },
+      {
+        "id": 31,
+        "title": "Search in Rotated Sorted Array",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      30,
+      31
+    ],
+    "conceptLesson": "Sorted-half detection; pivot reasoning; case analysis without losing invariants.",
+    "learningGoals": "Solve Find Minimum first, then reuse the structural insight for Search Rotated.",
+    "reviewPlan": "D+2 review: Day 15; D+7 review: Day 11.",
+    "block": "35m review + 2 x 90m problems + 45m compare",
+    "review": "D+2 review: Day 15; D+7 review: Day 11."
+  },
+  {
+    "day": 18,
+    "week": 3,
+    "dayType": "Practice",
+    "focus": "Binary search in systems/design",
+    "problems": [
+      {
+        "id": 32,
+        "title": "Time Based Key-Value Store",
+        "mode": "new"
+      },
+      {
+        "id": 33,
+        "title": "Median of Two Sorted Arrays",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      32,
+      33
+    ],
+    "conceptLesson": "Per-key sorted history; floor search; partition-based binary search.",
+    "learningGoals": "TimeMap is core. Median is a stretch/deep-dive hard problem; prioritize understanding partition conditions over memorizing code.",
+    "reviewPlan": "D+2 review: Day 16; D+7 review: Day 12.",
+    "block": "35m review + 80m TimeMap + 140m Median deep dive + 20m notes",
+    "review": "D+2 review: Day 16; D+7 review: Day 12."
+  },
+  {
+    "day": 19,
+    "week": 3,
+    "dayType": "Concept",
+    "focus": "Linked-list pointer mechanics",
+    "problems": [
+      {
+        "id": 34,
+        "title": "Reverse Linked List",
+        "mode": "new"
+      },
+      {
+        "id": 35,
+        "title": "Merge Two Sorted Linked Lists",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      34,
+      35
+    ],
+    "conceptLesson": "Node references; prev/current/next; sentinel nodes; pointer rewiring.",
+    "learningGoals": "Draw every pointer mutation. Compare iterative and recursive reversal, but master iterative O(1) space first.",
+    "reviewPlan": "D+2 review: Day 17; D+7 review: Day 13.",
+    "block": "60m linked-list refresher + 2 x 75m problems + 45m pointer tracing",
+    "review": "D+2 review: Day 17; D+7 review: Day 13."
+  },
+  {
+    "day": 20,
+    "week": 3,
+    "dayType": "Practice",
+    "focus": "Fast/slow pointers",
+    "problems": [
+      {
+        "id": 36,
+        "title": "Linked List Cycle",
+        "mode": "new"
+      },
+      {
+        "id": 37,
+        "title": "Reorder List",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      36,
+      37
+    ],
+    "conceptLesson": "Floyd cycle detection; midpoint; reverse second half; merge alternating halves.",
+    "learningGoals": "Prove why fast/slow meet in a cycle. Reorder is an integration of midpoint + reverse + merge.",
+    "reviewPlan": "D+2 review: Day 18; D+7 review: Day 14.",
+    "block": "35m review + 75m cycle + 110m reorder + 40m notes",
+    "review": "D+2 review: Day 18; D+7 review: Day 14."
+  },
+  {
+    "day": 21,
+    "week": 3,
+    "dayType": "Practice",
+    "focus": "Linked-list structural cases",
+    "problems": [
+      {
+        "id": 38,
+        "title": "Remove Nth Node From End of List",
+        "mode": "new"
+      },
+      {
+        "id": 39,
+        "title": "Copy List with Random Pointer",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      38,
+      39
+    ],
+    "conceptLesson": "Pointer gap; dummy head; node-to-node mapping; interleaving copy technique.",
+    "learningGoals": "Compare hash-map copy with O(1)-extra-space interleaving.",
+    "reviewPlan": "D+2 review: Day 19; D+7 review: Day 15.",
+    "block": "35m review + 2 x 90m problems + 40m alternatives",
+    "review": "D+2 review: Day 19; D+7 review: Day 15."
+  },
+  {
+    "day": 22,
+    "week": 4,
+    "dayType": "Practice",
+    "focus": "Linked-list arithmetic and merge",
+    "problems": [
+      {
+        "id": 40,
+        "title": "Add Two Numbers",
+        "mode": "new"
+      },
+      {
+        "id": 43,
+        "title": "Merge K Sorted Linked Lists",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      40,
+      43
+    ],
+    "conceptLesson": "Carry propagation; heap merge; divide-and-conquer merge.",
+    "learningGoals": "Compare heap O(n log k) with pairwise/divide-and-conquer merging.",
+    "reviewPlan": "D+2 review: Day 20; D+7 review: Day 16.",
+    "block": "35m review + 80m Add Two Numbers + 110m Merge K + 35m notes",
+    "review": "D+2 review: Day 20; D+7 review: Day 16."
+  },
+  {
+    "day": 23,
+    "week": 4,
+    "dayType": "Deep Dive",
+    "focus": "Linked-list cache design",
+    "problems": [
+      {
+        "id": 41,
+        "title": "Find the Duplicate Number",
+        "mode": "new"
+      },
+      {
+        "id": 42,
+        "title": "LRU Cache",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      41,
+      42
+    ],
+    "conceptLesson": "Floyd on implicit linked list; hash map + doubly linked list; O(1) operations.",
+    "learningGoals": "Find Duplicate connects cycle detection to arrays. LRU is a design capstone; implement helper remove/insert operations cleanly.",
+    "reviewPlan": "D+2 review: Day 21; D+7 review: Day 17.",
+    "block": "35m review + 80m duplicate + 140m LRU + 20m notes",
+    "review": "D+2 review: Day 21; D+7 review: Day 17."
+  },
+  {
+    "day": 24,
+    "week": 4,
+    "dayType": "Concept",
+    "focus": "Tree recursion and DFS",
+    "problems": [
+      {
+        "id": 45,
+        "title": "Invert Binary Tree",
+        "mode": "new"
+      },
+      {
+        "id": 46,
+        "title": "Maximum Depth of Binary Tree",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      45,
+      46
+    ],
+    "conceptLesson": "TreeNode model; recursive definition; call stack; preorder/postorder; O(n) traversal.",
+    "learningGoals": "Write recursive contracts in English before code. Implement iterative traversal once after the recursive versions.",
+    "reviewPlan": "D+2 review: Day 22; D+7 review: Day 18.",
+    "block": "90m tree/recursion lesson + 2 x 65m problems + 45m traversal drills",
+    "review": "D+2 review: Day 22; D+7 review: Day 18."
+  },
+  {
+    "day": 25,
+    "week": 4,
+    "dayType": "Practice",
+    "focus": "Bottom-up tree properties",
+    "problems": [
+      {
+        "id": 47,
+        "title": "Diameter of Binary Tree",
+        "mode": "new"
+      },
+      {
+        "id": 48,
+        "title": "Balanced Binary Tree",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      47,
+      48
+    ],
+    "conceptLesson": "Postorder aggregation; returning local information while updating global answers.",
+    "learningGoals": "Derive both from subtree height. Distinguish value returned to parent from answer maintained for whole tree.",
+    "reviewPlan": "D+2 review: Day 23; D+7 review: Day 19.",
+    "block": "35m review + 2 x 95m problems + 45m recursion tracing",
+    "review": "D+2 review: Day 23; D+7 review: Day 19."
+  },
+  {
+    "day": 26,
+    "week": 4,
+    "dayType": "Practice",
+    "focus": "Structural comparison",
+    "problems": [
+      {
+        "id": 49,
+        "title": "Same Binary Tree",
+        "mode": "new"
+      },
+      {
+        "id": 50,
+        "title": "Subtree of Another Tree",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      49,
+      50
+    ],
+    "conceptLesson": "Paired recursion; base cases; nested tree comparison.",
+    "learningGoals": "Master Same Tree first; use it as a helper abstraction for Subtree.",
+    "reviewPlan": "D+2 review: Day 24; D+7 review: Day 20.",
+    "block": "35m review + 70m Same Tree + 100m Subtree + 45m edge cases",
+    "review": "D+2 review: Day 24; D+7 review: Day 20."
+  },
+  {
+    "day": 27,
+    "week": 4,
+    "dayType": "Concept",
+    "focus": "Tree BFS and views",
+    "problems": [
+      {
+        "id": 52,
+        "title": "Binary Tree Level Order Traversal",
+        "mode": "new"
+      },
+      {
+        "id": 53,
+        "title": "Binary Tree Right Side View",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      52,
+      53
+    ],
+    "conceptLesson": "Queue-based BFS; level boundaries; per-level aggregation.",
+    "learningGoals": "Implement BFS with level-size loops. Compare DFS-by-depth alternative for right-side view.",
+    "reviewPlan": "D+2 review: Day 25; D+7 review: Day 21.",
+    "block": "55m BFS concept + 2 x 75m problems + 50m compare DFS/BFS",
+    "review": "D+2 review: Day 25; D+7 review: Day 21."
+  },
+  {
+    "day": 28,
+    "week": 4,
+    "dayType": "Concept",
+    "focus": "BST invariants",
+    "problems": [
+      {
+        "id": 54,
+        "title": "Count Good Nodes in Binary Tree",
+        "mode": "new"
+      },
+      {
+        "id": 55,
+        "title": "Validate Binary Search Tree",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      54,
+      55
+    ],
+    "conceptLesson": "Path state; lower/upper bounds; BST ordering as range constraints.",
+    "learningGoals": "Avoid checking only parent-child order for BST validation; propagate valid ranges.",
+    "reviewPlan": "D+2 review: Day 26; D+7 review: Day 22.",
+    "block": "35m review + 50m BST lesson + 2 x 80m problems + 30m notes",
+    "review": "D+2 review: Day 26; D+7 review: Day 22."
+  },
+  {
+    "day": 29,
+    "week": 5,
+    "dayType": "Practice",
+    "focus": "BST search/order statistics",
+    "problems": [
+      {
+        "id": 56,
+        "title": "Kth Smallest Element in a BST",
+        "mode": "new"
+      },
+      {
+        "id": 51,
+        "title": "Lowest Common Ancestor in Binary Search Tree",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      56,
+      51
+    ],
+    "conceptLesson": "Inorder sorted order; iterative inorder; BST-directed search.",
+    "learningGoals": "Explain when BST structure lets you avoid exploring both subtrees.",
+    "reviewPlan": "D+2 review: Day 27; D+7 review: Day 23.",
+    "block": "35m review + 2 x 85m problems + 50m traversal drill",
+    "review": "D+2 review: Day 27; D+7 review: Day 23."
+  },
+  {
+    "day": 30,
+    "week": 5,
+    "dayType": "Deep Dive",
+    "focus": "Tree reconstruction and serialization",
+    "problems": [
+      {
+        "id": 57,
+        "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+        "mode": "new"
+      },
+      {
+        "id": 59,
+        "title": "Serialize and Deserialize Binary Tree",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      57,
+      59
+    ],
+    "conceptLesson": "Traversal reconstruction; index maps; recursive bounds; serialization protocol.",
+    "learningGoals": "These are implementation-heavy. Focus on recursive subproblem boundaries and a reversible encoding.",
+    "reviewPlan": "D+2 review: Day 28; D+7 review: Day 24.",
+    "block": "35m review + 100m construct + 115m serialize + 20m notes",
+    "review": "D+2 review: Day 28; D+7 review: Day 24."
+  },
+  {
+    "day": 31,
+    "week": 5,
+    "dayType": "Deep Dive",
+    "focus": "Hard tree reasoning",
+    "problems": [
+      {
+        "id": 58,
+        "title": "Binary Tree Maximum Path Sum",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      58
+    ],
+    "conceptLesson": "Postorder DP on trees; gain returned upward vs complete path answer.",
+    "learningGoals": "Derive what a parent is allowed to extend. Compare one-branch return value with two-branch global path.",
+    "reviewPlan": "D+2 review: Day 29; D+7 review: Day 25.",
+    "block": "45m review + 75m tree-DP concept + 140m problem + 30m notes",
+    "review": "D+2 review: Day 29; D+7 review: Day 25."
+  },
+  {
+    "day": 32,
+    "week": 5,
+    "dayType": "Deep Dive",
+    "focus": "Tree order statistics",
+    "problems": [
+      {
+        "id": 58,
+        "title": "Binary Tree Maximum Path Sum",
+        "mode": "review"
+      },
+      {
+        "id": 52,
+        "title": "Binary Tree Level Order Traversal",
+        "mode": "review"
+      }
+    ],
+    "problemIds": [
+      58,
+      52
+    ],
+    "conceptLesson": "Consolidate recursion/BFS before moving on; no new hard tree problem is required.",
+    "learningGoals": "Re-derive Maximum Path Sum from a blank page, then solve Level Order iteratively without notes. Use remaining time on your weakest tree problem.",
+    "reviewPlan": "D+2 review: Day 30; D+7 review: Day 26.",
+    "block": "60m reviews + 90m re-derive max path + 60m BFS re-solve + 60m weakest tree",
+    "review": "D+2 review: Day 30; D+7 review: Day 26."
+  },
+  {
+    "day": 33,
+    "week": 5,
+    "dayType": "Concept",
+    "focus": "Heap / priority queue",
+    "problems": [
+      {
+        "id": 60,
+        "title": "Kth Largest Element in a Stream",
+        "mode": "new"
+      },
+      {
+        "id": 61,
+        "title": "Last Stone Weight",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      60,
+      61
+    ],
+    "conceptLesson": "Heap invariant; Python heapq; push/pop/replace; min-heap as bounded top-k.",
+    "learningGoals": "Implement a heap from scratch on paper/pseudocode, then use heapq. Explain O(log n) push/pop.",
+    "reviewPlan": "D+2 review: Day 31; D+7 review: Day 27.",
+    "block": "70m heap lesson + 2 x 65m problems + 45m heap operation tracing",
+    "review": "D+2 review: Day 31; D+7 review: Day 27."
+  },
+  {
+    "day": 34,
+    "week": 5,
+    "dayType": "Practice",
+    "focus": "Top-k and selection",
+    "problems": [
+      {
+        "id": 62,
+        "title": "K Closest Points to Origin",
+        "mode": "new"
+      },
+      {
+        "id": 63,
+        "title": "Kth Largest Element in an Array",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      62,
+      63
+    ],
+    "conceptLesson": "Heap vs sorting; quickselect concept; bounded heap.",
+    "learningGoals": "Compare sorting, heap, and quickselect. You only need to master one interview-safe optimal-ish method plus understand alternatives.",
+    "reviewPlan": "D+2 review: Day 32; D+7 review: Day 28.",
+    "block": "35m review + 2 x 85m problems + 55m approach comparison",
+    "review": "D+2 review: Day 32; D+7 review: Day 28."
+  },
+  {
+    "day": 35,
+    "week": 5,
+    "dayType": "Practice",
+    "focus": "Heap scheduling/design",
+    "problems": [
+      {
+        "id": 64,
+        "title": "Task Scheduler",
+        "mode": "new"
+      },
+      {
+        "id": 65,
+        "title": "Design Twitter",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      64,
+      65
+    ],
+    "conceptLesson": "Greedy counts + heap; event streams; k-way merge of recent items.",
+    "learningGoals": "Task Scheduler emphasizes reasoning; Twitter is a design exercise combining maps, timestamps, and heap merge.",
+    "reviewPlan": "D+2 review: Day 33; D+7 review: Day 29.",
+    "block": "35m review + 90m Task Scheduler + 120m Twitter + 15m notes",
+    "review": "D+2 review: Day 33; D+7 review: Day 29."
+  },
+  {
+    "day": 36,
+    "week": 6,
+    "dayType": "Deep Dive",
+    "focus": "Heap median",
+    "problems": [
+      {
+        "id": 66,
+        "title": "Find Median from Data Stream",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      66
+    ],
+    "conceptLesson": "Two-heaps partition; balancing invariant; streaming order statistics.",
+    "learningGoals": "State the invariant: max-heap lower half, min-heap upper half, sizes differ by at most one.",
+    "reviewPlan": "D+2 review: Day 34; D+7 review: Day 30.",
+    "block": "45m review + 70m concept + 135m implementation/testing + 30m notes",
+    "review": "D+2 review: Day 34; D+7 review: Day 30."
+  },
+  {
+    "day": 37,
+    "week": 6,
+    "dayType": "Concept",
+    "focus": "Trie foundations",
+    "problems": [
+      {
+        "id": 77,
+        "title": "Implement Trie (Prefix Tree)",
+        "mode": "new"
+      },
+      {
+        "id": 78,
+        "title": "Design Add and Search Words Data Structure",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      77,
+      78
+    ],
+    "conceptLesson": "Prefix tree nodes; terminal flags; DFS through wildcard branches.",
+    "learningGoals": "Implement Trie cleanly first. Then extend search semantics for '.'.",
+    "reviewPlan": "D+2 review: Day 35; D+7 review: Day 31.",
+    "block": "65m trie lesson + 75m Trie + 105m wildcard search + 35m notes",
+    "review": "D+2 review: Day 35; D+7 review: Day 31."
+  },
+  {
+    "day": 38,
+    "week": 6,
+    "dayType": "Concept",
+    "focus": "Backtracking decision trees",
+    "problems": [
+      {
+        "id": 67,
+        "title": "Subsets",
+        "mode": "new"
+      },
+      {
+        "id": 68,
+        "title": "Combination Sum",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      67,
+      68
+    ],
+    "conceptLesson": "Decision tree; choose/explore/unchoose; path state; pruning.",
+    "learningGoals": "Draw recursion trees. Distinguish index progression when reuse is allowed vs disallowed.",
+    "reviewPlan": "D+2 review: Day 36; D+7 review: Day 32.",
+    "block": "75m backtracking lesson + 2 x 80m problems + 40m recursion tracing",
+    "review": "D+2 review: Day 36; D+7 review: Day 32."
+  },
+  {
+    "day": 39,
+    "week": 6,
+    "dayType": "Practice",
+    "focus": "Backtracking permutations",
+    "problems": [
+      {
+        "id": 69,
+        "title": "Permutations",
+        "mode": "new"
+      },
+      {
+        "id": 70,
+        "title": "Subsets II",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      69,
+      70
+    ],
+    "conceptLesson": "Used-set / swap approaches; duplicate skipping after sorting.",
+    "learningGoals": "Explain why duplicate skipping belongs at the same recursion depth.",
+    "reviewPlan": "D+2 review: Day 37; D+7 review: Day 33.",
+    "block": "35m review + 2 x 90m problems + 45m compare templates",
+    "review": "D+2 review: Day 37; D+7 review: Day 33."
+  },
+  {
+    "day": 40,
+    "week": 6,
+    "dayType": "Practice",
+    "focus": "Backtracking constraints",
+    "problems": [
+      {
+        "id": 71,
+        "title": "Combination Sum II",
+        "mode": "new"
+      },
+      {
+        "id": 72,
+        "title": "Word Search",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      71,
+      72
+    ],
+    "conceptLesson": "No-reuse combinations; grid DFS; visited state and restoration.",
+    "learningGoals": "Word Search bridges backtracking to graph/grid DFS.",
+    "reviewPlan": "D+2 review: Day 38; D+7 review: Day 34.",
+    "block": "35m review + 90m Combination Sum II + 110m Word Search + 25m notes",
+    "review": "D+2 review: Day 38; D+7 review: Day 34."
+  },
+  {
+    "day": 41,
+    "week": 6,
+    "dayType": "Deep Dive",
+    "focus": "Backtracking generation",
+    "problems": [
+      {
+        "id": 73,
+        "title": "Palindrome Partitioning",
+        "mode": "new"
+      },
+      {
+        "id": 74,
+        "title": "Letter Combinations of a Phone Number",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      73,
+      74
+    ],
+    "conceptLesson": "Partition recursion; substring validity; Cartesian-product style recursion.",
+    "learningGoals": "Focus on defining what index/state means at each recursive call.",
+    "reviewPlan": "D+2 review: Day 39; D+7 review: Day 35.",
+    "block": "35m review + 110m Palindrome Partitioning + 75m Phone + 35m notes",
+    "review": "D+2 review: Day 39; D+7 review: Day 35."
+  },
+  {
+    "day": 42,
+    "week": 6,
+    "dayType": "Deep Dive",
+    "focus": "Backtracking hard problems",
+    "problems": [
+      {
+        "id": 75,
+        "title": "N-Queens",
+        "mode": "new"
+      },
+      {
+        "id": 79,
+        "title": "Word Search II",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      75,
+      79
+    ],
+    "conceptLesson": "Constraint sets; pruning; trie + DFS integration.",
+    "learningGoals": "N-Queens is the main target. Word Search II is stretch material; understanding trie-pruned DFS is sufficient on first pass.",
+    "reviewPlan": "D+2 review: Day 40; D+7 review: Day 36.",
+    "block": "35m review + 120m N-Queens + 120m Word Search II + 15m notes",
+    "review": "D+2 review: Day 40; D+7 review: Day 36."
+  },
+  {
+    "day": 43,
+    "week": 7,
+    "dayType": "Concept",
+    "focus": "Graph representation + DFS/BFS",
+    "problems": [
+      {
+        "id": 80,
+        "title": "Number of Islands",
+        "mode": "new"
+      },
+      {
+        "id": 82,
+        "title": "Max Area of Island",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      80,
+      82
+    ],
+    "conceptLesson": "Adjacency list vs matrix; implicit grid graph; visited; DFS/BFS; O(V+E).",
+    "learningGoals": "Before the problems, implement matrix DFS and BFS skeletons. Treat cells as graph vertices and neighbor moves as edges.",
+    "reviewPlan": "D+2 review: Day 41; D+7 review: Day 37.",
+    "block": "90m graph lesson/core-skill drill + 2 x 70m problems + 40m complexity",
+    "review": "D+2 review: Day 41; D+7 review: Day 37."
+  },
+  {
+    "day": 44,
+    "week": 7,
+    "dayType": "Practice",
+    "focus": "Graph copying and multi-source BFS",
+    "problems": [
+      {
+        "id": 81,
+        "title": "Clone Graph",
+        "mode": "new"
+      },
+      {
+        "id": 85,
+        "title": "Rotting Oranges",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      81,
+      85
+    ],
+    "conceptLesson": "Adjacency-list traversal; old->new mapping; multi-source BFS; level/time semantics.",
+    "learningGoals": "Compare DFS/BFS clone. For Rotting Oranges, explain why all initial rotten cells enter the queue together.",
+    "reviewPlan": "D+2 review: Day 42; D+7 review: Day 38.",
+    "block": "35m review + 85m Clone Graph + 100m Rotting Oranges + 40m notes",
+    "review": "D+2 review: Day 42; D+7 review: Day 38."
+  },
+  {
+    "day": 45,
+    "week": 7,
+    "dayType": "Concept",
+    "focus": "Graph reachability and boundaries",
+    "problems": [
+      {
+        "id": 83,
+        "title": "Pacific Atlantic Water Flow",
+        "mode": "new"
+      },
+      {
+        "id": 84,
+        "title": "Surrounded Regions",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      83,
+      84
+    ],
+    "conceptLesson": "Reverse reachability; boundary-start DFS/BFS; avoiding repeated search.",
+    "learningGoals": "Derive reverse-flow reasoning for Pacific Atlantic. Start Surrounded Regions from safe boundary cells.",
+    "reviewPlan": "D+2 review: Day 43; D+7 review: Day 39.",
+    "block": "35m review + 2 x 100m problems + 35m generalization",
+    "review": "D+2 review: Day 43; D+7 review: Day 39."
+  },
+  {
+    "day": 46,
+    "week": 7,
+    "dayType": "Concept",
+    "focus": "Cycle detection and topological sort",
+    "problems": [
+      {
+        "id": 87,
+        "title": "Course Schedule",
+        "mode": "new"
+      },
+      {
+        "id": 88,
+        "title": "Course Schedule II",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      87,
+      88
+    ],
+    "conceptLesson": "Directed graph cycles; indegree; Kahn BFS; DFS coloring; topological ordering.",
+    "learningGoals": "Learn both Kahn and DFS-color concepts, but implement one confidently. Course II should feel like an extension, not a new pattern.",
+    "reviewPlan": "D+2 review: Day 44; D+7 review: Day 40.",
+    "block": "70m topo lesson + 2 x 80m problems + 45m compare methods",
+    "review": "D+2 review: Day 44; D+7 review: Day 40."
+  },
+  {
+    "day": 47,
+    "week": 7,
+    "dayType": "Concept",
+    "focus": "Union-Find / DSU",
+    "problems": [
+      {
+        "id": 91,
+        "title": "Redundant Connection",
+        "mode": "new"
+      },
+      {
+        "id": 90,
+        "title": "Number of Connected Components in an Undirected Graph",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      91,
+      90
+    ],
+    "conceptLesson": "Parent/rank/size; path compression; union by rank; component counting.",
+    "learningGoals": "Implement DSU from scratch before problems. Explain near-constant amortized operations conceptually.",
+    "reviewPlan": "D+2 review: Day 45; D+7 review: Day 41.",
+    "block": "75m DSU lesson + 2 x 75m problems + 45m implementation drill",
+    "review": "D+2 review: Day 45; D+7 review: Day 41."
+  },
+  {
+    "day": 48,
+    "week": 7,
+    "dayType": "Practice",
+    "focus": "Graph validity and transformations",
+    "problems": [
+      {
+        "id": 89,
+        "title": "Graph Valid Tree",
+        "mode": "new"
+      },
+      {
+        "id": 86,
+        "title": "Walls and Gates",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      89,
+      86
+    ],
+    "conceptLesson": "Connected + acyclic characterization; multi-source BFS distance propagation.",
+    "learningGoals": "Compare DFS/DSU for Valid Tree. Recognize Walls and Gates as multi-source BFS like Rotting Oranges.",
+    "reviewPlan": "D+2 review: Day 46; D+7 review: Day 42.",
+    "block": "35m review + 85m Valid Tree + 95m Walls/Gates + 45m pattern comparison",
+    "review": "D+2 review: Day 46; D+7 review: Day 42."
+  },
+  {
+    "day": 49,
+    "week": 7,
+    "dayType": "Concept",
+    "focus": "Weighted graphs and shortest paths",
+    "problems": [
+      {
+        "id": 95,
+        "title": "Network Delay Time",
+        "mode": "new"
+      },
+      {
+        "id": 94,
+        "title": "Min Cost to Connect All Points",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      95,
+      94
+    ],
+    "conceptLesson": "Dijkstra; priority queue; relaxation; shortest-path invariant; MST and Prim.",
+    "learningGoals": "Spend substantial concept time. Distinguish shortest-path tree from minimum spanning tree.",
+    "reviewPlan": "D+2 review: Day 47; D+7 review: Day 43.",
+    "block": "90m weighted-graph lesson + 105m Dijkstra + 105m Prim/MST",
+    "review": "D+2 review: Day 47; D+7 review: Day 43."
+  },
+  {
+    "day": 50,
+    "week": 8,
+    "dayType": "Deep Dive",
+    "focus": "Advanced graph algorithms",
+    "problems": [
+      {
+        "id": 93,
+        "title": "Reconstruct Itinerary",
+        "mode": "new"
+      },
+      {
+        "id": 98,
+        "title": "Cheapest Flights Within K Stops",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      93,
+      98
+    ],
+    "conceptLesson": "Eulerian path / Hierholzer; constrained shortest path; Bellman-Ford layers.",
+    "learningGoals": "These are advanced. Aim to understand the algorithmic model and derive the state; perfect recall is not required on first pass.",
+    "reviewPlan": "D+2 review: Day 48; D+7 review: Day 44.",
+    "block": "40m review + 110m Itinerary + 120m Flights + 30m notes",
+    "review": "D+2 review: Day 48; D+7 review: Day 44."
+  },
+  {
+    "day": 51,
+    "week": 8,
+    "dayType": "Concept",
+    "focus": "Dynamic programming foundations",
+    "problems": [
+      {
+        "id": 99,
+        "title": "Climbing Stairs",
+        "mode": "new"
+      },
+      {
+        "id": 100,
+        "title": "Min Cost Climbing Stairs",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      99,
+      100
+    ],
+    "conceptLesson": "Recursion -> repeated subproblems -> memoization -> tabulation -> state compression.",
+    "learningGoals": "For both, explicitly write state definition, recurrence, base cases, evaluation order, complexity.",
+    "reviewPlan": "D+2 review: Day 49; D+7 review: Day 45.",
+    "block": "90m DP lesson + 2 x 70m problems + 50m convert top-down/bottom-up",
+    "review": "D+2 review: Day 49; D+7 review: Day 45."
+  },
+  {
+    "day": 52,
+    "week": 8,
+    "dayType": "Practice",
+    "focus": "1-D DP choices",
+    "problems": [
+      {
+        "id": 101,
+        "title": "House Robber",
+        "mode": "new"
+      },
+      {
+        "id": 102,
+        "title": "House Robber II",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      101,
+      102
+    ],
+    "conceptLesson": "Take/skip recurrence; rolling state; circular-array reduction.",
+    "learningGoals": "Derive House Robber first; reduce circular case to two linear subproblems.",
+    "reviewPlan": "D+2 review: Day 50; D+7 review: Day 46.",
+    "block": "35m review + 90m House Robber + 90m House Robber II + 45m recurrence notes",
+    "review": "D+2 review: Day 50; D+7 review: Day 46."
+  },
+  {
+    "day": 53,
+    "week": 8,
+    "dayType": "Practice",
+    "focus": "1-D DP sequence/state",
+    "problems": [
+      {
+        "id": 103,
+        "title": "Longest Palindromic Substring",
+        "mode": "new"
+      },
+      {
+        "id": 104,
+        "title": "Palindromic Substrings",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      103,
+      104
+    ],
+    "conceptLesson": "Expand-around-center; interval DP alternative; counting vs maximizing.",
+    "learningGoals": "These are included to compare a specialized O(n^2) technique with DP framing.",
+    "reviewPlan": "D+2 review: Day 51; D+7 review: Day 47.",
+    "block": "35m review + 2 x 95m problems + 45m compare approaches",
+    "review": "D+2 review: Day 51; D+7 review: Day 47."
+  },
+  {
+    "day": 54,
+    "week": 8,
+    "dayType": "Deep Dive",
+    "focus": "DP segmentation",
+    "problems": [
+      {
+        "id": 105,
+        "title": "Decode Ways",
+        "mode": "new"
+      },
+      {
+        "id": 108,
+        "title": "Word Break",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      105,
+      108
+    ],
+    "conceptLesson": "Prefix DP; recursion/memoization; transition enumeration; dictionary lookup.",
+    "learningGoals": "Derive exponential recursion first, then cache states, then write bottom-up DP.",
+    "reviewPlan": "D+2 review: Day 52; D+7 review: Day 48.",
+    "block": "35m review + 100m Decode Ways + 115m Word Break + 20m notes",
+    "review": "D+2 review: Day 52; D+7 review: Day 48."
+  },
+  {
+    "day": 55,
+    "week": 8,
+    "dayType": "Concept",
+    "focus": "Knapsack family",
+    "problems": [
+      {
+        "id": 106,
+        "title": "Coin Change",
+        "mode": "new"
+      },
+      {
+        "id": 110,
+        "title": "Partition Equal Subset Sum",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      106,
+      110
+    ],
+    "conceptLesson": "Unbounded vs 0/1 knapsack; min-cost vs boolean feasibility; iteration order.",
+    "learningGoals": "Do a short 0/1 and unbounded knapsack core-skill exercise before the two NeetCode problems.",
+    "reviewPlan": "D+2 review: Day 53; D+7 review: Day 49.",
+    "block": "70m knapsack lesson + 100m Coin Change + 100m Partition + 30m notes",
+    "review": "D+2 review: Day 53; D+7 review: Day 49."
+  },
+  {
+    "day": 56,
+    "week": 8,
+    "dayType": "Practice",
+    "focus": "DP sequence optimization",
+    "problems": [
+      {
+        "id": 109,
+        "title": "Longest Increasing Subsequence",
+        "mode": "new"
+      },
+      {
+        "id": 107,
+        "title": "Maximum Product Subarray",
+        "mode": "new"
+      }
+    ],
+    "problemIds": [
+      109,
+      107
+    ],
+    "conceptLesson": "DP over predecessors; patience/binary-search alternative; tracking max/min products.",
+    "learningGoals": "Master O(n^2) LIS DP before learning O(n log n). For product subarray, explain why minimum state matters.",
+    "reviewPlan": "D+2 review: Day 54; D+7 review: Day 50.",
+    "block": "35m review + 115m LIS + 95m Max Product + 25m notes",
+    "review": "D+2 review: Day 54; D+7 review: Day 50."
+  }
+]
